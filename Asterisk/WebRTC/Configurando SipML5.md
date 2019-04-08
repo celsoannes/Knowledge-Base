@@ -223,16 +223,16 @@ _pjsip.conf_
 
 ## Expert settings
 
-    Disable Video:                  yes
-    Enable RTCWeb Breaker:
+    Disable Video:                  [x]
+    Enable RTCWeb Breaker:          [ ]
     WebSocket Server URL:           wss://webrtc.finti.com.br:8089/ws
     SIP outbound Proxy URL:
     ICE Servers:                    {url: 'stun:stun.l.google.com:19302'}
     Max bandwidth (kbps):
     Video size:
-    Disable 3GPP Early IMS:         yes
-    Disable debug messages:         yes
-    Cache the media stream:         yes
-    Disable Call button options:
+    Disable 3GPP Early IMS:         [x]
+    Disable debug messages:         [x]
+    Cache the media stream:         [x]
+    Disable Call button options:    [ ]
     
 ![Expert settings](./images/sipml5_expert.png)

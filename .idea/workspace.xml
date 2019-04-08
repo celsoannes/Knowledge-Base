@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8cbc0c88-cd7b-40b4-b59f-1df3078272e2" name="Default Changelist" comment="" />
+    <list default="true" id="8cbc0c88-cd7b-40b4-b59f-1df3078272e2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Knowledge Base.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Asterisk/WebRTC/Configurando SipML5.md" beforeDir="false" afterPath="$PROJECT_DIR$/Asterisk/WebRTC/Configurando SipML5.md" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,7 +16,35 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Ruby Mine/Configurando Bitbucket para Ruby Mine no Windows.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="477">
+                <caret line="79" column="1" selection-start-line="79" selection-start-column="1" selection-end-line="79" selection-end-column="1" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Asterisk/WebRTC/Configurando SipML5.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="310">
+                <caret line="228" column="27" selection-start-line="228" selection-start-column="27" selection-end-line="228" selection-end-column="27" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -18,21 +53,23 @@
         <option value="$PROJECT_DIR$/Asterisk/Configuração do SNMP para o Asterisk.md" />
         <option value="$PROJECT_DIR$/Linux/Restauração de Backup.md" />
         <option value="$PROJECT_DIR$/Asterisk/Criando certificados para Asterisk com Let's Encrypt.md" />
+        <option value="$PROJECT_DIR$/Ruby Mine/Configurando GitBucket no Windows.md" />
         <option value="$PROJECT_DIR$/Asterisk/WebRTC/Configurando SipML5.md" />
+        <option value="$PROJECT_DIR$/Ruby Mine/Configurando Bitbucket para Ruby Mine no Windows.md" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
-    <option name="width" value="1844" />
+    <option name="width" value="1667" />
     <option name="height" value="1047" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -48,6 +85,12 @@
             <path>
               <item name="Knowledge Base" type="b2602c69:ProjectViewProjectNode" />
               <item name="Knowledge Base" type="462c0819:PsiDirectoryNode" />
+              <item name="Asterisk" type="462c0819:PsiDirectoryNode" />
+              <item name="WebRTC" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Knowledge Base" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Knowledge Base" type="462c0819:PsiDirectoryNode" />
               <item name="Banco de Dados" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -59,15 +102,23 @@
             <path>
               <item name="Knowledge Base" type="b2602c69:ProjectViewProjectNode" />
               <item name="Knowledge Base" type="462c0819:PsiDirectoryNode" />
+              <item name="Banco de Dados" type="462c0819:PsiDirectoryNode" />
+              <item name="PostgreSQL" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Knowledge Base" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Knowledge Base" type="462c0819:PsiDirectoryNode" />
               <item name="Linux" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -99,19 +150,21 @@
       <workItem from="1554490217170" duration="521000" />
       <workItem from="1554490782257" duration="3904000" />
       <workItem from="1554745277468" duration="6602000" />
+      <workItem from="1554751920860" duration="6982000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11027000" />
+    <option name="totallyTimeSpent" value="18009000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
+    <frame x="-7" y="0" width="1667" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.14745627" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2327318" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.32912722" />
+      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.33227175" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="3" />
@@ -150,26 +203,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Asterisk/Configuração do SNMP para o Asterisk 11+.md" />
-    <entry file="file://$PROJECT_DIR$/Asterisk/WebRTC/Configurando SipML5.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="391">
-            <caret line="201" column="16" lean-forward="true" selection-start-line="201" selection-start-column="16" selection-end-line="201" selection-end-column="16" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Asterisk/Criando certificados para Asterisk com Let's Encrypt.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="663">
-            <caret line="39" selection-start-line="39" selection-end-line="39" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Linux/Restauração de Backup.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -198,12 +231,43 @@
           <nodes />
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="1072.5" y="450.0" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="1073.0" y="450.0" />
           <SelectedNodes />
           <Categories>
             <Category>All</Category>
           </Categories>
+          <SCOPE>All</SCOPE>
           <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Asterisk/Criando certificados para Asterisk com Let's Encrypt.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="663">
+            <caret line="39" selection-start-line="39" selection-end-line="39" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Asterisk/WebRTC/Configurando SipML5.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="310">
+            <caret line="228" column="27" selection-start-line="228" selection-start-column="27" selection-end-line="228" selection-end-column="27" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ruby Mine/Configurando Bitbucket para Ruby Mine no Windows.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="477">
+            <caret line="79" column="1" selection-start-line="79" selection-start-column="1" selection-end-line="79" selection-end-column="1" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
