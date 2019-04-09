@@ -8,7 +8,7 @@ Para criar o pendrive bootável a partir do Windows, utilize o [Win32DiskImager]
     dd if=debian-live-6.0.3-i386-standard.img of=/dev/sdX
 Onde **sdX** é o dispositivo do pendrive.
 
-Caso isso seja feito através da Internet, deve-se adicionar o parâmetro z ao rsync, para que seja feita a compressão dos dados. Não deve ser utilizada compressão em rede local.
+Caso isso seja feito através da Internet, deve-se adicionar o parâmetro ```z``` ao ```rsync```, para que seja feita a compressão dos dados. Não deve ser utilizada compressão em rede local.
 
 Os dois primeiros comandos devem ser necessariamente feitos no terminal físico. Os demais podem ser feitos via SSH.
 Login e senha para acessar o linux live
@@ -19,11 +19,11 @@ Login e senha para acessar o linux live
     aptitude update
     apt-get install ssh rsync
 
-Após instalar o SSH será necesasrio acessar o arquivo */etc/ssh/sshd_config*.
+Após instalar o SSH será necesasrio acessar o arquivo ```/etc/ssh/sshd_config```.
 
     PasswordAuthentication no
 
-Alterar o paramentro *PasswordAuthentication* de *no* para *yes*:
+Alterar o paramentro ```PasswordAuthentication``` de ```no``` para ```yes```:
 
     PasswordAuthentication yes
 
@@ -50,7 +50,7 @@ Faça o seguinte procedimento:
     (parted) mklabel msdos
     (parted) quit
 
-Crie duas partições: uma com o tamanho total do disco menos 1024MB e outra com o restante. A primeira deve ser do tipo Linux (83) e a segunda tipo Linux Swap (82). O resultado final deve ser similar a este:
+Crie duas partições: uma com o tamanho total do disco menos 1024MB e outra com o restante. A primeira deve ser do tipo ```Linux (83)``` e a segunda tipo ```Linux Swap (82)```. O resultado final deve ser similar a este:
 
                                      cfdisk (util-linux-ng 2.17.2)                                  
                                                                                                     
@@ -94,7 +94,7 @@ Após definida as partições, formate os volumes:
     mkdir /target
     mount /dev/sda1 /target
 
-O próximo comando vai copiar todos os dados da origem para o destino. Caso a origem seja um backup armazenado no servidor ssh, deve-se utilizar o seu próprio usuário. A origem deve ser o diretório /backup/nomecliente. Caso a origem seja o servidor do cliente, é indispensável que todos os serviços (exceto o SSH) sejam parados. O usuário será canall e o diretório de origem será **/**
+O próximo comando vai copiar todos os dados da origem para o destino. Caso a origem seja um backup armazenado no servidor ssh, deve-se utilizar o seu próprio usuário. A origem deve ser o diretório /backup/nomecliente. Caso a origem seja o servidor do cliente, é indispensável que todos os serviços (exceto o SSH) sejam parados. O usuário será canall e o diretório de origem será ```/```.
 
     rsync -avPH --numeric-ids --exclude=/dev --exclude=/proc --exclude=/sys [usuario]@[ip origem]:[caminho origem]/ /target/
     
@@ -109,7 +109,7 @@ O próximo comando vai copiar todos os dados da origem para o destino. Caso a or
     De um PABX live:
     rsync -avzH --numeric-ids --exclude=/var/log --include=/var/log/asterisk/cdr-csv/ --exclude=/backup --exclude=/proc --exclude=/bkpallvo --exclude=/dev --exclude=/sys --exclude=/tmp --exclude=/var/spool/asterisk/monitor --exclude=/var/lib/asterisk/sounds/meetme-conf-rec-* --exclude=/mnt root@pabx-e1:/ /target/
 
-Se usar o rsync “usuário@ssh:/backup/(nome_cliente)/” vai pedir confirmação digite 'yes' e após vai pedir a senha de seu usuário.
+Se usar o ```rsync``` ```usuário@ssh:/backup/(nome_cliente)/``` vai pedir confirmação digite ```yes``` e após vai pedir a senha de seu usuário.
 
 Se o rsync foi completado sem erros, prossiga com os seguintes comandos:
 
@@ -156,11 +156,11 @@ Continue o procedimento com os seguintes comandos:
     aptitude update
     aptitude install firmware-linux-nonfree
 
-Caso algum dos comandos acima tenha falhado, adicione a seguinte linha no início do _/etc/resolv.conf_ e tente novamente. Do contrário, não é necessário alterar o arquivo.
+Caso algum dos comandos acima tenha falhado, adicione a seguinte linha no início do ```/etc/resolv.conf``` e tente novamente. Do contrário, não é necessário alterar o arquivo.
 
     nameserver 8.8.8.8
 
-Anote os UUIDs das partições ext3 e swap, rodando o comando *blkid*:
+Anote a ```UUID``` das partições ```ext3``` e ```swap```, rodando o comando ```blkid```:
 
     root@debian:/# blkid
     /dev/sda1: UUID="0965b73b-ac5f-4e36-a76f-e3d09c101292" TYPE="ext3"
@@ -168,9 +168,9 @@ Anote os UUIDs das partições ext3 e swap, rodando o comando *blkid*:
     /dev/loop0: TYPE="squashfs" 
     /dev/sda2: UUID="d54ecd32-c523-45c3-bac5-5dca5643df94" TYPE="swap"
 
-Nesse exemplo, as UUIDs da partição ext3 e swap são respectivamente 0965b73b-ac5f-4e36-a76f-e3d09c101292 e d54ecd32-c523-45c3-bac5-5dca5643df94.
+Nesse exemplo, a ```UUID``` das partições ```ext3``` e ```swap``` são respectivamente ```0965b73b-ac5f-4e36-a76f-e3d09c101292``` e ```d54ecd32-c523-45c3-bac5-5dca5643df94```.
 
-Edite o arquivo /etc/fstab e altere as UUIDs.
+Edite o arquivo ```/etc/fstab``` e altere as UUIDs.
 
     # /etc/fstab: static file system information.
     #
@@ -196,7 +196,7 @@ Finalize o procedimento com os seguintes comandos:
 Caso você receba a mensagem:
 
     grub-install: error: /usr/lib/grub/i386-pc/modinfo.sh doesn't exist. Please specify --target or --directory.
-Tente instalar o grub-pc (referencia: https://goo.gl/HbASiv):
+Tente instalar o ```grub-pc```. Fonte: [ask ubuntu](https://goo.gl/HbASiv)
 
     apt-get install grub-pc
 Caso você receba a seguinte mensagem:
@@ -205,7 +205,7 @@ Caso você receba a seguinte mensagem:
 Prossiga com o seguinte comando:
 
     apt-get install grub-common
-No CentOS, deve-se primeiro editar o _/etc/grub.conf_ e alterar os UUIDs de acordo, assim como deve-se verificar o caminho dos arquivos necessários para o boot em relação ao diretório _/boot_. Após isso deve-se realizar o seguinte procedimento:
+No CentOS, deve-se primeiro editar o ```/etc/grub.conf``` e alterar os UUIDs de acordo, assim como deve-se verificar o caminho dos arquivos necessários para o boot em relação ao diretório ```/boot```. Após isso deve-se realizar o seguinte procedimento:
 
 
     dracut -f #equivalente ao update-initramfs

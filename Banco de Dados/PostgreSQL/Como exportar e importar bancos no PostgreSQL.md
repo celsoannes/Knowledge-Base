@@ -1,5 +1,5 @@
 # Como exportar e importar bancos no PostgreSQL
-Estando logado como *root* registre-se com o usuario *postgres* rodando o comando abaixo:
+Estando logado como ```root``` registre-se com o usuario ```postgres``` rodando o comando abaixo:
     
     su postgres
 

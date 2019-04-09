@@ -5,7 +5,7 @@ Para evitar conflito de versões antes de fazer a instalação certifique-se de 
 
     sudo apt-get remove certbot
 
-Faça o download da versão mais atual do _certbot-auto_ e de permisão de execução:
+Faça o download da versão mais atual do ```certbot-auto``` e de permisão de execução:
 
     wget https://dl.eff.org/certbot-auto
     chmod a+x certbot-auto

@@ -3,7 +3,7 @@
 
 # Exemplo de configuração SIP
 
-_sip.conf_
+```sip.conf```
 
     ;
     ; SIP Configuration for Asterisk
@@ -119,7 +119,7 @@ _sip.conf_
 
 
 # Exemplo de configuração PJSIP
-_pjsip.conf_
+```pjsip.conf```
 
     [transport_wss]
     type=transport

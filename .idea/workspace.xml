@@ -2,12 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8cbc0c88-cd7b-40b4-b59f-1df3078272e2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Knowledge Base.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Knowledge Base.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Linux/Como alterar o seu endereço de IP através da linha de comando.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Linux/Entendendo os comando shutdown, halt, poweroff e reboot.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Asterisk/Configuração do SNMP para o Asterisk.md" beforeDir="false" afterPath="$PROJECT_DIR$/Asterisk/Configuração do SNMP para o Asterisk.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Asterisk/Criando certificados para Asterisk com Let's Encrypt.md" beforeDir="false" afterPath="$PROJECT_DIR$/Asterisk/Criando certificados para Asterisk com Let's Encrypt.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Asterisk/WebRTC/Configurando SipML5.md" beforeDir="false" afterPath="$PROJECT_DIR$/Asterisk/WebRTC/Configurando SipML5.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banco de Dados/MySQL/Backup e Restore no MySQL.md" beforeDir="false" afterPath="$PROJECT_DIR$/Banco de Dados/MySQL/Backup e Restore no MySQL.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banco de Dados/PostgreSQL/Como exportar e importar bancos no PostgreSQL.md" beforeDir="false" afterPath="$PROJECT_DIR$/Banco de Dados/PostgreSQL/Como exportar e importar bancos no PostgreSQL.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Linux/Como capturar pacotes de rede.md" beforeDir="false" afterPath="$PROJECT_DIR$/Linux/Como capturar pacotes de rede.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Linux/Restauração de Backup.md" beforeDir="false" afterPath="$PROJECT_DIR$/Linux/Restauração de Backup.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ruby Mine/Configurando Bitbucket para Ruby Mine no Windows.md" beforeDir="false" afterPath="$PROJECT_DIR$/Ruby Mine/Configurando Bitbucket para Ruby Mine no Windows.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,25 +25,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Ruby Mine/Configurando Bitbucket para Ruby Mine no Windows.md">
+        <entry file="file://$PROJECT_DIR$/Linux/Como alterar o seu endereço de IP através da linha de comando.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="477">
-                <caret line="79" column="1" selection-start-line="79" selection-start-column="1" selection-end-line="79" selection-end-column="1" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Asterisk/WebRTC/Configurando SipML5.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="310">
-                <caret line="228" column="27" selection-start-line="228" selection-start-column="27" selection-end-line="228" selection-end-column="27" />
+              <first_editor relative-caret-position="460">
+                <caret line="60" column="21" lean-forward="true" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
               </first_editor>
               <second_editor />
             </state>
@@ -50,18 +47,25 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Asterisk/Configuração do SNMP para o Asterisk 11+.md" />
-        <option value="$PROJECT_DIR$/Asterisk/Configuração do SNMP para o Asterisk.md" />
-        <option value="$PROJECT_DIR$/Linux/Restauração de Backup.md" />
-        <option value="$PROJECT_DIR$/Asterisk/Criando certificados para Asterisk com Let's Encrypt.md" />
         <option value="$PROJECT_DIR$/Ruby Mine/Configurando GitBucket no Windows.md" />
+        <option value="$PROJECT_DIR$/Linux/como alterar o seu endereço de ip através da linha de comando.md" />
+        <option value="$PROJECT_DIR$/Linux/Como alterar o seu endereço de ip através da linha de comando.md" />
         <option value="$PROJECT_DIR$/Asterisk/WebRTC/Configurando SipML5.md" />
+        <option value="$PROJECT_DIR$/Asterisk/Configuração do SNMP para o Asterisk.md" />
+        <option value="$PROJECT_DIR$/Asterisk/Criando certificados para Asterisk com Let's Encrypt.md" />
+        <option value="$PROJECT_DIR$/Banco de Dados/MySQL/Backup e Restore no MySQL.md" />
+        <option value="$PROJECT_DIR$/Banco de Dados/PostgreSQL/Como exportar e importar bancos no PostgreSQL.md" />
+        <option value="$PROJECT_DIR$/Linux/Como capturar pacotes de rede.md" />
+        <option value="$PROJECT_DIR$/Linux/Entendendo os comando shutdown, halt, poweroff e reboot.md" />
         <option value="$PROJECT_DIR$/Ruby Mine/Configurando Bitbucket para Ruby Mine no Windows.md" />
+        <option value="$PROJECT_DIR$/Linux/Restauração de Backup.md" />
+        <option value="$PROJECT_DIR$/Linux/Como alterar o seu endereço de IP através da linha de comando.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
-    <option name="width" value="1667" />
+    <option name="width" value="1801" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -110,6 +114,11 @@
               <item name="Knowledge Base" type="462c0819:PsiDirectoryNode" />
               <item name="Linux" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Knowledge Base" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Knowledge Base" type="462c0819:PsiDirectoryNode" />
+              <item name="Ruby Mine" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -150,19 +159,20 @@
       <workItem from="1554490217170" duration="521000" />
       <workItem from="1554490782257" duration="3904000" />
       <workItem from="1554745277468" duration="6602000" />
-      <workItem from="1554751920860" duration="6982000" />
+      <workItem from="1554751920860" duration="7174000" />
+      <workItem from="1554810265858" duration="7460000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18009000" />
+    <option name="totallyTimeSpent" value="25661000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1667" height="1047" extended-state="0" />
+    <frame x="-7" y="0" width="1801" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2327318" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.21769099" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.33227175" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
@@ -194,35 +204,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Banco de Dados/MySQL/Backup e Restore no MySQL.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Asterisk/Configuração do SNMP para o Asterisk 11+.md" />
-    <entry file="file://$PROJECT_DIR$/Linux/Restauração de Backup.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="331">
-            <caret line="189" column="26" selection-start-line="189" selection-start-column="26" selection-end-line="189" selection-end-column="26" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Asterisk/Configuração do SNMP para o Asterisk.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="841">
-            <caret line="862" column="53" selection-start-line="862" selection-start-column="53" selection-end-line="862" selection-end-column="53" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://JavaScript-modules-diagram/D:/Users/Celso Annes/Google Drive/Knowledge Base">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -241,21 +223,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Asterisk/Criando certificados para Asterisk com Let's Encrypt.md">
+    <entry file="file://$PROJECT_DIR$/Asterisk/WebRTC/Configurando SipML5.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="663">
-            <caret line="39" selection-start-line="39" selection-end-line="39" />
+          <first_editor relative-caret-position="-1050">
+            <caret line="121" column="16" selection-start-line="121" selection-start-column="16" selection-end-line="121" selection-end-column="16" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Asterisk/WebRTC/Configurando SipML5.md">
+    <entry file="file://$PROJECT_DIR$/Asterisk/Configuração do SNMP para o Asterisk.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="310">
-            <caret line="228" column="27" selection-start-line="228" selection-start-column="27" selection-end-line="228" selection-end-column="27" />
+          <first_editor relative-caret-position="289">
+            <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Asterisk/Criando certificados para Asterisk com Let's Encrypt.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="119">
+            <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Banco de Dados/MySQL/Backup e Restore no MySQL.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="493">
+            <caret line="62" column="321" selection-start-line="62" selection-start-column="321" selection-end-line="62" selection-end-column="321" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Banco de Dados/PostgreSQL/Como exportar e importar bancos no PostgreSQL.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="17">
+            <caret line="1" column="71" selection-start-line="1" selection-start-column="71" selection-end-line="1" selection-end-column="71" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Linux/Como capturar pacotes de rede.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="255">
+            <caret line="15" column="103" selection-start-line="15" selection-start-column="103" selection-end-line="15" selection-end-column="103" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Linux/Entendendo os comando shutdown, halt, poweroff e reboot.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="418">
+            <caret line="46" column="26" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Linux/Restauração de Backup.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="302">
+            <caret line="207" column="199" selection-start-line="207" selection-start-column="199" selection-end-line="207" selection-end-column="199" />
           </first_editor>
           <second_editor />
         </state>
@@ -264,8 +306,18 @@
     <entry file="file://$PROJECT_DIR$/Ruby Mine/Configurando Bitbucket para Ruby Mine no Windows.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="477">
-            <caret line="79" column="1" selection-start-line="79" selection-start-column="1" selection-end-line="79" selection-end-column="1" />
+          <first_editor relative-caret-position="391">
+            <caret line="47" column="144" selection-start-line="47" selection-start-column="144" selection-end-line="47" selection-end-column="144" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Linux/Como alterar o seu endereço de IP através da linha de comando.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="460">
+            <caret line="60" column="21" lean-forward="true" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
           </first_editor>
           <second_editor />
         </state>

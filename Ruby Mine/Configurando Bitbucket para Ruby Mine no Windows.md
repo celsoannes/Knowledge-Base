@@ -3,7 +3,7 @@
 Primeiramente certifique-se de que tem o git instalado no windows, caso não tenha basta baixar a ultima versão [aqui](https://git-scm.com/).
 
 ## 1. Configurando SSH para Git no Windows
-1. A partir do terminal, entre _ssh-keygen_.
+1. A partir do terminal, entre ```ssh-keygen```.
 
     Será solicitado onde você deseja salvar a chave.
     
@@ -11,7 +11,7 @@ Primeiramente certifique-se de que tem o git instalado no windows, caso não ten
         Generating public/private rsa key pair.
         Enter file in which to save the key (C:\Users\Celso Annes/.ssh/id_rsa):
         
-1. Pressione enter para aceitar a chave padrão e o caminho, _C:\Users\Celso Annes/.ssh/id_rsa_.
+1. Pressione enter para aceitar a chave padrão e o caminho, ```C:\Users\Celso Annes/.ssh/id_rsa```.
 
 1. Digite a senha e quando solicitado insira a mesma senha novamente.
 
@@ -27,7 +27,7 @@ Primeiramente certifique-se de que tem o git instalado no windows, caso não ten
         The key fingerprint is:
         SHA256:LL4W/AEX2uHWv+gRs7dN6qqokrAJkf+QggKhOckBgI4 celso annes@DESKTOP-N0Q402F
 
-1. Liste o conteúdo de _.ssh_ para ver os arquivos das chaves.
+1. Liste o conteúdo de ```.ssh``` para ver os arquivos das chaves.
 
     Você deve ver algo semelhante a isto:
     
@@ -45,7 +45,7 @@ Primeiramente certifique-se de que tem o git instalado no windows, caso não ten
                        3 arquivo(s)          2.597 bytes
                        2 pasta(s)   37.817.765.888 bytes disponíveis
 
-    O comando mostrará dois arquivos, um para a chave pública (por exemplo _id_rsa.pub_) e um para a chave privada (por exemplo _id_rsa_)
+    O comando mostrará dois arquivos, um para a chave pública (por exemplo ```id_rsa.pub```) e um para a chave privada (por exemplo ```id_rsa```)
     
 # 2. Adicione a chave publica as configurações do Bitbucket
 

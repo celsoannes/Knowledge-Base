@@ -15,12 +15,12 @@ Este passo é necessário para que o Gerenciador obtenha os dados do Dashboard.
    
     ./configure && make menuselect && make && make install
 
-Certifique-se que a opção res_snmp esteja marcada dentro de Resource Modules.
+Certifique-se que a opção ```res_snmp``` esteja marcada dentro de Resource Modules.
 
 ## 4. Edite o arquivo /etc/snmp/snmpd.conf e certifique-se que as seguintes linhas encontrem-se próximas ao final do arquivo:
 
-   master  agentx
-   agentXperms 0660 0550 root root
+    master  agentx
+    agentXperms 0660 0550 root root
 
 ## 5. Reinicie o serviço SNMP:
 
