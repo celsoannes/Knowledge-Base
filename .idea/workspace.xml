@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8cbc0c88-cd7b-40b4-b59f-1df3078272e2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Linux/Como Instalar e Configurar o Puppet-Server e Puppet-Agent no Debian 9.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Linux/Como instalar o Jenkins no Debian 9.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Linux/Configurndo VIM.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Linux/images/comunicacao_puppet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Linux/Como instalar o Docker no Debian 9.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,36 +13,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Linux/Como instalar o ELK Stack no Debian 9.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="3672">
-                <caret line="216" column="103" selection-start-line="216" selection-start-column="103" selection-end-line="216" selection-end-column="103" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Linux/Como Instalar e Configurar o Puppet-Server e Puppet-Agent no Debian 9.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="2873">
-                <caret line="169" column="73" selection-start-line="169" selection-start-column="73" selection-end-line="169" selection-end-column="73" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Linux/Como instalar o Jenkins no Debian 9.md">
+        <entry file="file://$PROJECT_DIR$/Linux/Como instalar o Docker no Debian 9.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="618">
-                <caret line="146" column="31" selection-start-line="146" selection-start-column="31" selection-end-line="146" selection-end-column="31" />
+              <first_editor relative-caret-position="102">
+                <caret line="5" selection-start-line="5" selection-end-line="5" />
               </first_editor>
               <second_editor />
             </state>
@@ -80,6 +53,7 @@
         <option value="$PROJECT_DIR$/Linux/Configurndo VIM.md" />
         <option value="$PROJECT_DIR$/Linux/Como Instalar e Configurar o Puppet-Server e Puppet-Agent no Debian 9.md" />
         <option value="$PROJECT_DIR$/Linux/Como instalar o Jenkins no Debian 9.md" />
+        <option value="$PROJECT_DIR$/Linux/Como instalar o Docker no Debian 9.md" />
       </list>
     </option>
   </component>
@@ -179,21 +153,21 @@
       <workItem from="1554810265858" duration="7703000" />
       <workItem from="1554909064887" duration="14823000" />
       <workItem from="1554987280112" duration="18839000" />
-      <workItem from="1555067937346" duration="1914000" />
+      <workItem from="1555067937346" duration="5779000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61480000" />
+    <option name="totallyTimeSpent" value="65345000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1614" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.25032175" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.25032175" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.18259023" />
+      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.18259023" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="3" />
@@ -342,16 +316,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ferramentas de Desenvolvimento/Git passo-apasso.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="627">
-            <caret line="51" column="110" selection-start-line="51" selection-start-column="110" selection-end-line="51" selection-end-column="110" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Linux/images/comunicacao_puppet.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -388,8 +352,28 @@
     <entry file="file://$PROJECT_DIR$/Linux/Como instalar o Jenkins no Debian 9.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="618">
-            <caret line="146" column="31" selection-start-line="146" selection-start-column="31" selection-end-line="146" selection-end-column="31" />
+          <first_editor relative-caret-position="2267">
+            <caret line="149" column="153" lean-forward="true" selection-start-line="149" selection-start-column="153" selection-end-line="149" selection-end-column="153" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ferramentas de Desenvolvimento/Git passo-apasso.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="627">
+            <caret line="51" column="110" selection-start-line="51" selection-start-column="110" selection-end-line="51" selection-end-column="110" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Linux/Como instalar o Docker no Debian 9.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="102">
+            <caret line="5" selection-start-line="5" selection-end-line="5" />
           </first_editor>
           <second_editor />
         </state>
