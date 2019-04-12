@@ -17,7 +17,7 @@ O conteudo de `/var/lib/docker/`, incluindo imagens, containers, volumes e redes
 
 1. Atualize o `apt` repositório de pacotes:
 
-```bash
+```console
 root@docker:~# apt-get update
 ```
 
