@@ -16,8 +16,8 @@
         <entry file="file://$PROJECT_DIR$/Linux/Como instalar o Docker no Debian 9.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="391">
-                <caret line="20" selection-start-line="20" selection-end-line="20" />
+              <first_editor relative-caret-position="408">
+                <caret line="21" column="3" lean-forward="true" selection-start-line="19" selection-end-line="21" selection-end-column="3" />
               </first_editor>
               <second_editor />
             </state>
@@ -152,12 +152,12 @@
       <workItem from="1554810265858" duration="7703000" />
       <workItem from="1554909064887" duration="14823000" />
       <workItem from="1554987280112" duration="18839000" />
-      <workItem from="1555067937346" duration="6694000" />
+      <workItem from="1555067937346" duration="7250000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66260000" />
+    <option name="totallyTimeSpent" value="66816000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1614" height="1047" extended-state="0" />
@@ -371,8 +371,8 @@
     <entry file="file://$PROJECT_DIR$/Linux/Como instalar o Docker no Debian 9.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="391">
-            <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <first_editor relative-caret-position="408">
+            <caret line="21" column="3" lean-forward="true" selection-start-line="19" selection-end-line="21" selection-end-column="3" />
           </first_editor>
           <second_editor />
         </state>
