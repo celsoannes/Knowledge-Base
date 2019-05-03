@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8cbc0c88-cd7b-40b4-b59f-1df3078272e2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Linux/Instalando Zoneminder no Debian 9.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Linux/Como instalar o Docker no Debian 9.md" beforeDir="false" afterPath="$PROJECT_DIR$/Linux/Como instalar o Docker no Debian 9.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,12 +15,48 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="1530">
+                <caret line="90" column="34" selection-start-line="90" selection-start-column="34" selection-end-line="90" selection-end-column="34" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Linux/Como instalar o Docker no Debian 9.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="408">
-                <caret line="21" column="3" lean-forward="true" selection-start-line="19" selection-end-line="21" selection-end-column="3" />
+              <first_editor relative-caret-position="686">
+                <caret line="107" column="341" selection-start-line="107" selection-start-column="341" selection-end-line="107" selection-end-column="341" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Linux/Como instalar o Jenkins no Debian 9.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="2261">
+                <caret line="149" column="153" lean-forward="true" selection-start-line="149" selection-start-column="153" selection-end-line="149" selection-end-column="153" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Linux/Instalando Zoneminder no Debian 9.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="278">
+                <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
               </first_editor>
               <second_editor />
             </state>
@@ -52,13 +91,15 @@
         <option value="$PROJECT_DIR$/Linux/Configurndo VIM.md" />
         <option value="$PROJECT_DIR$/Linux/Como Instalar e Configurar o Puppet-Server e Puppet-Agent no Debian 9.md" />
         <option value="$PROJECT_DIR$/Linux/Como instalar o Jenkins no Debian 9.md" />
+        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Linux/Como instalar o Docker no Debian 9.md" />
+        <option value="$PROJECT_DIR$/Linux/Instalando Zoneminder no Debian 9.md" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="-7" />
-    <option name="width" value="1614" />
+    <option name="width" value="1903" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -73,29 +114,6 @@
             <path>
               <item name="Knowledge Base" type="b2602c69:ProjectViewProjectNode" />
               <item name="Knowledge Base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Knowledge Base" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Knowledge Base" type="462c0819:PsiDirectoryNode" />
-              <item name="Asterisk" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Knowledge Base" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Knowledge Base" type="462c0819:PsiDirectoryNode" />
-              <item name="Asterisk" type="462c0819:PsiDirectoryNode" />
-              <item name="WebRTC" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Knowledge Base" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Knowledge Base" type="462c0819:PsiDirectoryNode" />
-              <item name="Asterisk" type="462c0819:PsiDirectoryNode" />
-              <item name="WebRTC" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Knowledge Base" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Knowledge Base" type="462c0819:PsiDirectoryNode" />
-              <item name="Ferramentas de Desenvolvimento" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Knowledge Base" type="b2602c69:ProjectViewProjectNode" />
@@ -115,7 +133,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Linux/images" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -152,21 +170,24 @@
       <workItem from="1554810265858" duration="7703000" />
       <workItem from="1554909064887" duration="14823000" />
       <workItem from="1554987280112" duration="18839000" />
-      <workItem from="1555067937346" duration="7250000" />
+      <workItem from="1555067937346" duration="8211000" />
+      <workItem from="1555080891703" duration="5854000" />
+      <workItem from="1555439067927" duration="599000" />
+      <workItem from="1556803638641" duration="8183000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66816000" />
+    <option name="totallyTimeSpent" value="82413000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1614" height="1047" extended-state="0" />
+    <frame x="-7" y="0" width="1903" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.25032175" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.21703744" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.18259023" />
+      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.18259023" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="3" />
@@ -188,14 +209,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Asterisk/Configuração do SNMP para o Asterisk 11+.md" />
     <entry file="uml://JavaScript-modules-diagram/D:/Users/Celso Annes/Google Drive/Knowledge Base">
       <provider selected="true" editor-type-id="UmlEditorProvider">
@@ -348,16 +361,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Linux/Como instalar o Jenkins no Debian 9.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="2267">
-            <caret line="149" column="153" lean-forward="true" selection-start-line="149" selection-start-column="153" selection-end-line="149" selection-end-column="153" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Ferramentas de Desenvolvimento/Git passo-apasso.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -368,11 +371,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1530">
+            <caret line="90" column="34" selection-start-line="90" selection-start-column="34" selection-end-line="90" selection-end-column="34" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Linux/Como instalar o Jenkins no Debian 9.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="2261">
+            <caret line="149" column="153" lean-forward="true" selection-start-line="149" selection-start-column="153" selection-end-line="149" selection-end-column="153" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Linux/Instalando Zoneminder no Debian 9.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="278">
+            <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Linux/Como instalar o Docker no Debian 9.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="408">
-            <caret line="21" column="3" lean-forward="true" selection-start-line="19" selection-end-line="21" selection-end-column="3" />
+          <first_editor relative-caret-position="686">
+            <caret line="107" column="341" selection-start-line="107" selection-start-column="341" selection-end-line="107" selection-end-column="341" />
           </first_editor>
           <second_editor />
         </state>
