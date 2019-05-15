@@ -43,11 +43,11 @@ vi /etc/openvpn/server.conf
 1. Assegure que o tamanho da chave RSA usada possui um tamanho compatível com o telefone Yealink:
 
     ```bash
-    \# Diffie hellman parameters.
-    \# Generate your own with:
-    \#   openssl dhparam -out dh1024.pem 1024
-    \# Substitute 2048 for 1024 if you are using
-    \# 2048 bit keys.
+    # Diffie hellman parameters.
+    # Generate your own with:
+    #   openssl dhparam -out dh1024.pem 1024
+    # Substitute 2048 for 1024 if you are using
+    # 2048 bit keys.
     dh dh1024.pem
     ```
     
