@@ -43,7 +43,7 @@ vi /etc/openvpn/server.conf
 1. Assegure que o tamanho da chave RSA usada possui um tamanho compatível com o telefone Yealink:
 
     ```bash
-    # Diffie hellman parameters.
+    #Diffie hellman parameters.
     # Generate your own with:
     #   openssl dhparam -out dh1024.pem 1024
     # Substitute 2048 for 1024 if you are using
@@ -237,6 +237,7 @@ service openvpn start
 service openvpn status
 ```
 
+
 O comando status irá retornar algo selelhante ao seguinte:
 
 ```bash
@@ -322,4 +323,4 @@ O OpenVPN requer o uso de certificados para ajudar a estabelecer a autenticidade
     tar -cvpf openvpn.tar *
     ```
 
-Fonte: [OpenVPN_Feature_on_Yealink_IP_Phones_V81_20.pdf](http://download.support.yealink.com/download?path=ZIjHOJbWuW/DFrGTLnGypiNdPZjJiENy01Unf47Kr1yULEZVmC5lSZwy9XNE64y111i/zwZXplusSymbol0uOcHaEePdpAvE0eOSNEY679O6k2SRcbByAyidFa8vHHbIMF4gplusSymbol0plusSymbol9bEDoJWUSwFFt2W3plusSymbol7krAanhPI/Gl0AFiX) 
+Fonte: [OpenVPN_Feature_on_Yealink_IP_Phones_V81_20.pdf](http://download.support.yealink.com/download?path=ZIjHOJbWuW/DFrGTLnGypiNdPZjJiENy01Unf47Kr1yULEZVmC5lSZwy9XNE64y111i/zwZXplusSymbol0uOcHaEePdpAvE0eOSNEY679O6k2SRcbByAyidFa8vHHbIMF4gplusSymbol0plusSymbol9bEDoJWUSwFFt2W3plusSymbol7krAanhPI/Gl0AFiX)
