@@ -66,6 +66,15 @@ vi /etc/openvpn/server.conf
     push "dhcp-option DNS 208.67.220.220"
     ```
 
+1. Altere o caminho dos certificados para o caminho aonde irão ser encontrados posteriormente
+    
+    ```bash
+    ca /etc/openvpn/keys/ca.crt
+    cert /etc/openvpn/keys/server.crt
+    key /etc/openvpn/keys/server.key  # This file should be kept secret
+    dh /etc/openvpn/keys/dh1024.pem
+    ```
+
 ## Habilitar Encaminhamento de Pacotes
 
 Nesta sessão, nos iremos informar ao kernel do servidor para encaminhar o tráfego do cliente de fora para a internet. Caso contrário, o tráfego irá parar no servidor.
@@ -250,6 +259,32 @@ O comando status irá retornar algo selelhante ao seguinte:
 
 O mais importanto da saída acima, você deve encontrar ``Active: active (exited) since...`` ao invés de  ``Active: inactive (dead) since...``.
 
+Ao final, o seu arquivo ``/etc/openvpn/server.conf`` deve se ser parecido com as linhas abaixo:
+```bash
+local 200.240.249.44
+port 1194
+proto udp
+dev tun
+ca /etc/openvpn/keys/ca.crt
+cert /etc/openvpn/keys/server.crt
+key /etc/openvpn/keys/server.key  # This file should be kept secret
+dh /etc/openvpn/keys/dh1024.pem
+server 10.8.0.0 255.255.255.0
+ifconfig-pool-persist ipp.txt
+#duplicate-cn #Allow VPN clients to use the same certificate to connect the VPN server.
+#client-to-client #Allow the connected VPN clients to communicate #directly, rather than forwarding data by the VPN server.
+push "redirect-gateway def1 bypass-dhcp"
+push "dhcp-option DNS 208.67.222.222"
+push "dhcp-option DNS 208.67.220.220"
+keepalive 10 120
+comp-lzo
+persist-key
+persist-tun
+status openvpn-status.log
+verb 3
+log-append /var/log/openvpn.log
+```
+
 ## Gerando Certificados e Chaves para os Clientes
 
 Você deve continuar trabalhando na pasta ``/etc/openvpn/easy-rsa``.
@@ -282,7 +317,7 @@ O OpenVPN requer o uso de certificados para ajudar a estabelecer a autenticidade
 1. Crie uma nova pasta chamada ``client`` para guardar as chaves para o cliente:
 
     ```bash
-    mkdir -p /tmp/client/keys
+    mkdir -p /etc/openvpn/client/keys
     ```
     
 1. Copie o arquivo ``client.conf`` e renomeie para ``vpn.cnf``.
@@ -297,7 +332,7 @@ O OpenVPN requer o uso de certificados para ajudar a estabelecer a autenticidade
     cp /etc/openvpn/easy-rsa/keys/{client.crt,client.key,ca.crt} /etc/openvpn/client/keys
     ```
 
-1. Os seguintes parametros devem ser configurados:
+1. Os seguintes parametros devem ser configurados em ``/etc/openvpn/client/vpn.cnf``:
 
     ```bash
     client

@@ -16,8 +16,8 @@
         <entry file="file://$PROJECT_DIR$/Asterisk/Como configurar OpenVPN para Yealink.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="629">
-                <caret line="51" column="4" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="4" />
+              <first_editor relative-caret-position="255">
+                <caret line="273" selection-start-line="273" selection-end-line="273" />
               </first_editor>
               <second_editor />
             </state>
@@ -74,7 +74,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
-    <option name="width" value="1671" />
+    <option name="width" value="1873" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -162,18 +162,19 @@
       <workItem from="1557504967140" duration="599000" />
       <workItem from="1557848931910" duration="12962000" />
       <workItem from="1557879507840" duration="389000" />
-      <workItem from="1557918206346" duration="10890000" />
+      <workItem from="1557918206346" duration="18003000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108035000" />
+    <option name="totallyTimeSpent" value="115148000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1671" height="1047" extended-state="0" />
+    <frame x="-7" y="0" width="1873" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.18621974" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.1654716" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.18259023" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
@@ -412,8 +413,8 @@
     <entry file="file://$PROJECT_DIR$/Asterisk/Como configurar OpenVPN para Yealink.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="629">
-            <caret line="51" column="4" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="4" />
+          <first_editor relative-caret-position="255">
+            <caret line="273" selection-start-line="273" selection-end-line="273" />
           </first_editor>
           <second_editor />
         </state>
