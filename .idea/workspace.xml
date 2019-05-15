@@ -16,8 +16,8 @@
         <entry file="file://$PROJECT_DIR$/Asterisk/Como configurar OpenVPN para Yealink.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="527">
-                <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+              <first_editor relative-caret-position="629">
+                <caret line="51" column="4" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="4" />
               </first_editor>
               <second_editor />
             </state>
@@ -162,12 +162,12 @@
       <workItem from="1557504967140" duration="599000" />
       <workItem from="1557848931910" duration="12962000" />
       <workItem from="1557879507840" duration="389000" />
-      <workItem from="1557918206346" duration="10631000" />
+      <workItem from="1557918206346" duration="10890000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107776000" />
+    <option name="totallyTimeSpent" value="108035000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1671" height="1047" extended-state="0" />
@@ -412,8 +412,8 @@
     <entry file="file://$PROJECT_DIR$/Asterisk/Como configurar OpenVPN para Yealink.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="527">
-            <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+          <first_editor relative-caret-position="629">
+            <caret line="51" column="4" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="4" />
           </first_editor>
           <second_editor />
         </state>
