@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8cbc0c88-cd7b-40b4-b59f-1df3078272e2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Asterisk/Como configurar OpenVPN para Yealink.md" beforeDir="false" afterPath="$PROJECT_DIR$/Asterisk/Como configurar OpenVPN para Yealink.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Asterisk/WebRTC/Configurando WebRTC para Asterisk.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,12 +13,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Asterisk/Como configurar OpenVPN para Yealink.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="255">
-                <caret line="273" selection-start-line="273" selection-end-line="273" />
+              <first_editor relative-caret-position="4862">
+                <caret line="286" selection-start-line="286" selection-end-line="286" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Asterisk/WebRTC/Configurando WebRTC para Asterisk.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="278">
+                <caret line="256" column="4" selection-start-line="256" selection-start-column="4" selection-end-line="256" selection-end-column="4" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Asterisk/WebRTC/Configurando SipML5.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="236">
+                <caret line="199" column="19" lean-forward="true" selection-start-line="199" selection-start-column="19" selection-end-line="199" selection-end-column="19" />
               </first_editor>
               <second_editor />
             </state>
@@ -28,8 +53,8 @@
         <entry file="file://$PROJECT_DIR$/Ferramentas de Desenvolvimento/Git passo-apasso.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="901">
-                <caret line="49" column="26" lean-forward="true" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="26" />
+              <first_editor relative-caret-position="833">
+                <caret line="49" column="26" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="26" />
               </first_editor>
               <second_editor />
             </state>
@@ -69,12 +94,14 @@
         <option value="$PROJECT_DIR$/Linux/Instalando Zoneminder no Debian 9.md" />
         <option value="$PROJECT_DIR$/Asterisk/Como configurar Fail2Ban para Asterisk.md" />
         <option value="$PROJECT_DIR$/Asterisk/Como configurar OpenVPN para Yealink.md" />
+        <option value="$PROJECT_DIR$/Asterisk/WebRTC/Configurando WebRTC para Asterisk.md" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="width" value="1873" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="1153" />
+    <option name="y" value="-18" />
+    <option name="width" value="1294" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -95,6 +122,19 @@
               <item name="Knowledge Base" type="b2602c69:ProjectViewProjectNode" />
               <item name="Knowledge Base" type="462c0819:PsiDirectoryNode" />
               <item name="Asterisk" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Knowledge Base" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Knowledge Base" type="462c0819:PsiDirectoryNode" />
+              <item name="Asterisk" type="462c0819:PsiDirectoryNode" />
+              <item name="WebRTC" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Knowledge Base" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Knowledge Base" type="462c0819:PsiDirectoryNode" />
+              <item name="Asterisk" type="462c0819:PsiDirectoryNode" />
+              <item name="WebRTC" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Knowledge Base" type="b2602c69:ProjectViewProjectNode" />
@@ -162,21 +202,22 @@
       <workItem from="1557504967140" duration="599000" />
       <workItem from="1557848931910" duration="12962000" />
       <workItem from="1557879507840" duration="389000" />
-      <workItem from="1557918206346" duration="18003000" />
+      <workItem from="1557918206346" duration="18887000" />
+      <workItem from="1558009760674" duration="19070000" />
+      <workItem from="1558118923406" duration="1613000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115148000" />
+    <option name="totallyTimeSpent" value="136715000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1873" height="1047" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="2576" height="1056" extended-state="7" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.1654716" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.16772655" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.18259023" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.18743229" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="3" />
@@ -242,16 +283,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="391">
             <caret line="47" column="144" selection-start-line="47" selection-start-column="144" selection-end-line="47" selection-end-column="144" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Asterisk/WebRTC/Configurando SipML5.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="355">
-            <caret line="221" selection-start-line="221" selection-end-line="221" selection-end-column="49" />
           </first_editor>
           <second_editor />
         </state>
@@ -400,21 +431,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ferramentas de Desenvolvimento/Git passo-apasso.md">
+    <entry file="file://$PROJECT_DIR$/Asterisk/WebRTC/images/codec_opus.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Asterisk/Como configurar OpenVPN para Yealink.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="901">
-            <caret line="49" column="26" lean-forward="true" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="26" />
+          <first_editor relative-caret-position="4862">
+            <caret line="286" selection-start-line="286" selection-end-line="286" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Asterisk/Como configurar OpenVPN para Yealink.md">
+    <entry file="file://$PROJECT_DIR$/Ferramentas de Desenvolvimento/Git passo-apasso.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="255">
-            <caret line="273" selection-start-line="273" selection-end-line="273" />
+          <first_editor relative-caret-position="833">
+            <caret line="49" column="26" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="26" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Asterisk/WebRTC/Configurando SipML5.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="236">
+            <caret line="199" column="19" lean-forward="true" selection-start-line="199" selection-start-column="19" selection-end-line="199" selection-end-column="19" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Asterisk/WebRTC/Configurando WebRTC para Asterisk.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="278">
+            <caret line="256" column="4" selection-start-line="256" selection-start-column="4" selection-end-line="256" selection-end-column="4" />
           </first_editor>
           <second_editor />
         </state>
