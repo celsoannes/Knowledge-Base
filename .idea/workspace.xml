@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8cbc0c88-cd7b-40b4-b59f-1df3078272e2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Asterisk/WebRTC/Configurando WebRTC para Asterisk.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Asterisk/Como capturar ligações de uma Fila.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,7 +25,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Asterisk/WebRTC/Configurando WebRTC para Asterisk.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -37,11 +37,23 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Asterisk/Como capturar ligações de uma Fila.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="589">
+                <caret line="64" column="96" lean-forward="true" selection-start-line="64" selection-start-column="96" selection-end-line="64" selection-end-column="96" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Asterisk/WebRTC/Configurando SipML5.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="236">
+              <first_editor relative-caret-position="3383">
                 <caret line="199" column="19" lean-forward="true" selection-start-line="199" selection-start-column="19" selection-end-line="199" selection-end-column="19" />
               </first_editor>
               <second_editor />
@@ -54,7 +66,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="833">
-                <caret line="49" column="26" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="26" />
+                <caret line="49" column="4" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="26" />
               </first_editor>
               <second_editor />
             </state>
@@ -95,13 +107,13 @@
         <option value="$PROJECT_DIR$/Asterisk/Como configurar Fail2Ban para Asterisk.md" />
         <option value="$PROJECT_DIR$/Asterisk/Como configurar OpenVPN para Yealink.md" />
         <option value="$PROJECT_DIR$/Asterisk/WebRTC/Configurando WebRTC para Asterisk.md" />
+        <option value="$PROJECT_DIR$/Asterisk/Como capturar ligações de uma Fila.md" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="1153" />
-    <option name="y" value="-18" />
-    <option name="width" value="1294" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-7" />
+    <option name="width" value="1792" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -110,7 +122,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -126,19 +137,6 @@
             <path>
               <item name="Knowledge Base" type="b2602c69:ProjectViewProjectNode" />
               <item name="Knowledge Base" type="462c0819:PsiDirectoryNode" />
-              <item name="Asterisk" type="462c0819:PsiDirectoryNode" />
-              <item name="WebRTC" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Knowledge Base" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Knowledge Base" type="462c0819:PsiDirectoryNode" />
-              <item name="Asterisk" type="462c0819:PsiDirectoryNode" />
-              <item name="WebRTC" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Knowledge Base" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Knowledge Base" type="462c0819:PsiDirectoryNode" />
               <item name="Ferramentas de Desenvolvimento" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -150,6 +148,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -204,20 +203,22 @@
       <workItem from="1557879507840" duration="389000" />
       <workItem from="1557918206346" duration="18887000" />
       <workItem from="1558009760674" duration="19070000" />
-      <workItem from="1558118923406" duration="1613000" />
+      <workItem from="1558118923406" duration="2324000" />
+      <workItem from="1558717499082" duration="3022000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136715000" />
+    <option name="totallyTimeSpent" value="140448000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2576" height="1056" extended-state="7" />
+    <frame x="-7" y="0" width="1792" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.16772655" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24538106" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.18743229" />
+      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.1892779" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="3" />
@@ -444,21 +445,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ferramentas de Desenvolvimento/Git passo-apasso.md">
+    <entry file="file://$PROJECT_DIR$/Asterisk/WebRTC/Configurando SipML5.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="833">
-            <caret line="49" column="26" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="26" />
+          <first_editor relative-caret-position="3383">
+            <caret line="199" column="19" lean-forward="true" selection-start-line="199" selection-start-column="19" selection-end-line="199" selection-end-column="19" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Asterisk/WebRTC/Configurando SipML5.md">
+    <entry file="file://$PROJECT_DIR$/Ferramentas de Desenvolvimento/Git passo-apasso.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="236">
-            <caret line="199" column="19" lean-forward="true" selection-start-line="199" selection-start-column="19" selection-end-line="199" selection-end-column="19" />
+          <first_editor relative-caret-position="833">
+            <caret line="49" column="4" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="26" />
           </first_editor>
           <second_editor />
         </state>
@@ -469,6 +470,16 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="278">
             <caret line="256" column="4" selection-start-line="256" selection-start-column="4" selection-end-line="256" selection-end-column="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Asterisk/Como capturar ligações de uma Fila.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="589">
+            <caret line="64" column="96" lean-forward="true" selection-start-line="64" selection-start-column="96" selection-end-line="64" selection-end-column="96" />
           </first_editor>
           <second_editor />
         </state>
