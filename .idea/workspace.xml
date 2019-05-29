@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8cbc0c88-cd7b-40b4-b59f-1df3078272e2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Asterisk/Como capturar ligações de uma Fila.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Banco de Dados/PostgreSQL/Configurando SSL para PostgreSQL.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Banco de Dados/PostgreSQL/Instalando PostgreSQL no Debian 9.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,8 +18,8 @@
         <entry file="file://$PROJECT_DIR$/Asterisk/Como configurar OpenVPN para Yealink.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="4862">
-                <caret line="286" selection-start-line="286" selection-end-line="286" />
+              <first_editor relative-caret-position="85">
+                <caret line="4" column="226" selection-start-line="4" selection-start-column="226" selection-end-line="4" selection-end-column="226" />
               </first_editor>
               <second_editor />
             </state>
@@ -29,20 +30,8 @@
         <entry file="file://$PROJECT_DIR$/Asterisk/WebRTC/Configurando WebRTC para Asterisk.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="278">
-                <caret line="256" column="4" selection-start-line="256" selection-start-column="4" selection-end-line="256" selection-end-column="4" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Asterisk/Como capturar ligações de uma Fila.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="589">
-                <caret line="64" column="96" lean-forward="true" selection-start-line="64" selection-start-column="96" selection-end-line="64" selection-end-column="96" />
+              <first_editor relative-caret-position="640">
+                <caret line="257" column="112" selection-start-line="257" selection-start-column="112" selection-end-line="257" selection-end-column="112" />
               </first_editor>
               <second_editor />
             </state>
@@ -50,11 +39,23 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Asterisk/WebRTC/Configurando SipML5.md">
+        <entry file="file://$PROJECT_DIR$/Banco de Dados/PostgreSQL/Instalando PostgreSQL no Debian 9.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="3383">
-                <caret line="199" column="19" lean-forward="true" selection-start-line="199" selection-start-column="19" selection-end-line="199" selection-end-column="19" />
+              <first_editor relative-caret-position="411">
+                <caret line="79" column="34" lean-forward="true" selection-start-line="79" selection-start-column="34" selection-end-line="79" selection-end-column="34" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Banco de Dados/PostgreSQL/Configurando SSL para PostgreSQL.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="295">
+                <caret line="143" column="64" selection-start-line="143" selection-start-column="64" selection-end-line="143" selection-end-column="64" />
               </first_editor>
               <second_editor />
             </state>
@@ -65,8 +66,8 @@
         <entry file="file://$PROJECT_DIR$/Ferramentas de Desenvolvimento/Git passo-apasso.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="833">
-                <caret line="49" column="4" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="26" />
+              <first_editor relative-caret-position="153">
+                <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="42" />
               </first_editor>
               <second_editor />
             </state>
@@ -74,6 +75,12 @@
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>raiz</find>
+      <find>base</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -108,10 +115,13 @@
         <option value="$PROJECT_DIR$/Asterisk/Como configurar OpenVPN para Yealink.md" />
         <option value="$PROJECT_DIR$/Asterisk/WebRTC/Configurando WebRTC para Asterisk.md" />
         <option value="$PROJECT_DIR$/Asterisk/Como capturar ligações de uma Fila.md" />
+        <option value="$PROJECT_DIR$/Banco de Dados/PostgreSQL/Instalando PostgreSQL no Debian 9.md" />
+        <option value="$PROJECT_DIR$/Banco de Dados/PostgreSQL/Configurando TLS para PostgreSQL.md" />
+        <option value="$PROJECT_DIR$/Banco de Dados/PostgreSQL/Configurando SSL para PostgreSQL.md" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-7" />
     <option name="width" value="1792" />
     <option name="height" value="1047" />
@@ -133,6 +143,30 @@
               <item name="Knowledge Base" type="b2602c69:ProjectViewProjectNode" />
               <item name="Knowledge Base" type="462c0819:PsiDirectoryNode" />
               <item name="Asterisk" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Knowledge Base" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Knowledge Base" type="462c0819:PsiDirectoryNode" />
+              <item name="Asterisk" type="462c0819:PsiDirectoryNode" />
+              <item name="WebRTC" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Knowledge Base" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Knowledge Base" type="462c0819:PsiDirectoryNode" />
+              <item name="Banco de Dados" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Knowledge Base" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Knowledge Base" type="462c0819:PsiDirectoryNode" />
+              <item name="Banco de Dados" type="462c0819:PsiDirectoryNode" />
+              <item name="PostgreSQL" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Knowledge Base" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Knowledge Base" type="462c0819:PsiDirectoryNode" />
+              <item name="Banco de Dados" type="462c0819:PsiDirectoryNode" />
+              <item name="PostgreSQL" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Knowledge Base" type="b2602c69:ProjectViewProjectNode" />
@@ -204,21 +238,22 @@
       <workItem from="1557918206346" duration="18887000" />
       <workItem from="1558009760674" duration="19070000" />
       <workItem from="1558118923406" duration="2324000" />
-      <workItem from="1558717499082" duration="3022000" />
+      <workItem from="1558717499082" duration="6384000" />
+      <workItem from="1559130301968" duration="22133000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140448000" />
+    <option name="totallyTimeSpent" value="165943000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1792" height="1047" extended-state="0" />
+    <frame x="-8" y="-8" width="2576" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24538106" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.17011128" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.1892779" />
+      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.18743229" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="3" />
@@ -435,11 +470,11 @@
     <entry file="file://$PROJECT_DIR$/Asterisk/WebRTC/images/codec_opus.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Asterisk/Como configurar OpenVPN para Yealink.md">
+    <entry file="file://$PROJECT_DIR$/Asterisk/Como capturar ligações de uma Fila.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="4862">
-            <caret line="286" selection-start-line="286" selection-end-line="286" />
+          <first_editor relative-caret-position="326">
+            <caret line="50" column="35" selection-start-line="50" selection-start-column="31" selection-end-line="50" selection-end-column="35" />
           </first_editor>
           <second_editor />
         </state>
@@ -448,18 +483,8 @@
     <entry file="file://$PROJECT_DIR$/Asterisk/WebRTC/Configurando SipML5.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="3383">
+          <first_editor relative-caret-position="657">
             <caret line="199" column="19" lean-forward="true" selection-start-line="199" selection-start-column="19" selection-end-line="199" selection-end-column="19" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ferramentas de Desenvolvimento/Git passo-apasso.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="833">
-            <caret line="49" column="4" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="26" />
           </first_editor>
           <second_editor />
         </state>
@@ -468,18 +493,51 @@
     <entry file="file://$PROJECT_DIR$/Asterisk/WebRTC/Configurando WebRTC para Asterisk.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="278">
-            <caret line="256" column="4" selection-start-line="256" selection-start-column="4" selection-end-line="256" selection-end-column="4" />
+          <first_editor relative-caret-position="640">
+            <caret line="257" column="112" selection-start-line="257" selection-start-column="112" selection-end-line="257" selection-end-column="112" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Asterisk/Como capturar ligações de uma Fila.md">
+    <entry file="file://$PROJECT_DIR$/Ferramentas de Desenvolvimento/Git passo-apasso.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="589">
-            <caret line="64" column="96" lean-forward="true" selection-start-line="64" selection-start-column="96" selection-end-line="64" selection-end-column="96" />
+          <first_editor relative-caret-position="153">
+            <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="42" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Banco de Dados/PostgreSQL/images/pgadmin_add_server_ssl.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Banco de Dados/PostgreSQL/Instalando PostgreSQL no Debian 9.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="411">
+            <caret line="79" column="34" lean-forward="true" selection-start-line="79" selection-start-column="34" selection-end-line="79" selection-end-column="34" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Asterisk/Como configurar OpenVPN para Yealink.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="85">
+            <caret line="4" column="226" selection-start-line="4" selection-start-column="226" selection-end-line="4" selection-end-column="226" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Banco de Dados/PostgreSQL/Configurando SSL para PostgreSQL.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="295">
+            <caret line="143" column="64" selection-start-line="143" selection-start-column="64" selection-end-line="143" selection-end-column="64" />
           </first_editor>
           <second_editor />
         </state>
