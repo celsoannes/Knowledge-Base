@@ -14,7 +14,7 @@
         <entry file="file://$PROJECT_DIR$/Asterisk/Como configurar OpenVPN para Yealink.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="85">
+              <first_editor relative-caret-position="68">
                 <caret line="4" column="226" selection-start-line="4" selection-start-column="226" selection-end-line="4" selection-end-column="226" />
               </first_editor>
               <second_editor />
@@ -26,7 +26,7 @@
         <entry file="file://$PROJECT_DIR$/Asterisk/WebRTC/Configurando WebRTC para Asterisk.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="606">
+              <first_editor relative-caret-position="4369">
                 <caret line="257" column="112" selection-start-line="257" selection-start-column="112" selection-end-line="257" selection-end-column="112" />
               </first_editor>
               <second_editor />
@@ -38,7 +38,7 @@
         <entry file="file://$PROJECT_DIR$/Banco de Dados/PostgreSQL/Instalando PostgreSQL no Debian 9.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="411">
+              <first_editor relative-caret-position="1343">
                 <caret line="79" column="34" lean-forward="true" selection-start-line="79" selection-start-column="34" selection-end-line="79" selection-end-column="34" />
               </first_editor>
               <second_editor />
@@ -50,7 +50,7 @@
         <entry file="file://$PROJECT_DIR$/Banco de Dados/PostgreSQL/Configurando SSL para PostgreSQL.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="295">
+              <first_editor relative-caret-position="2431">
                 <caret line="143" column="64" selection-start-line="143" selection-start-column="64" selection-end-line="143" selection-end-column="64" />
               </first_editor>
               <second_editor />
@@ -128,6 +128,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -178,7 +179,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -236,17 +236,18 @@
       <workItem from="1558118923406" duration="2324000" />
       <workItem from="1558717499082" duration="6384000" />
       <workItem from="1559130301968" duration="22496000" />
+      <workItem from="1559218330153" duration="259000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="166306000" />
+    <option name="totallyTimeSpent" value="166565000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.17011128" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.17130366" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.18743229" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
@@ -488,31 +489,11 @@
     <entry file="file://$PROJECT_DIR$/Banco de Dados/PostgreSQL/images/pgadmin_add_server_ssl.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Banco de Dados/PostgreSQL/Instalando PostgreSQL no Debian 9.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="411">
-            <caret line="79" column="34" lean-forward="true" selection-start-line="79" selection-start-column="34" selection-end-line="79" selection-end-column="34" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Asterisk/Como configurar OpenVPN para Yealink.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="85">
+          <first_editor relative-caret-position="68">
             <caret line="4" column="226" selection-start-line="4" selection-start-column="226" selection-end-line="4" selection-end-column="226" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Banco de Dados/PostgreSQL/Configurando SSL para PostgreSQL.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="295">
-            <caret line="143" column="64" selection-start-line="143" selection-start-column="64" selection-end-line="143" selection-end-column="64" />
           </first_editor>
           <second_editor />
         </state>
@@ -521,8 +502,28 @@
     <entry file="file://$PROJECT_DIR$/Asterisk/WebRTC/Configurando WebRTC para Asterisk.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="606">
+          <first_editor relative-caret-position="4369">
             <caret line="257" column="112" selection-start-line="257" selection-start-column="112" selection-end-line="257" selection-end-column="112" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Banco de Dados/PostgreSQL/Instalando PostgreSQL no Debian 9.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1343">
+            <caret line="79" column="34" lean-forward="true" selection-start-line="79" selection-start-column="34" selection-end-line="79" selection-end-column="34" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Banco de Dados/PostgreSQL/Configurando SSL para PostgreSQL.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="2431">
+            <caret line="143" column="64" selection-start-line="143" selection-start-column="64" selection-end-line="143" selection-end-column="64" />
           </first_editor>
           <second_editor />
         </state>
