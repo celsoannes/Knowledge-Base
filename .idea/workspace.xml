@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8cbc0c88-cd7b-40b4-b59f-1df3078272e2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Banco de Dados/PostgreSQL/Configurando SSL para PostgreSQL.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Banco de Dados/PostgreSQL/Instalando PostgreSQL no Debian 9.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="8cbc0c88-cd7b-40b4-b59f-1df3078272e2" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +26,7 @@
         <entry file="file://$PROJECT_DIR$/Asterisk/WebRTC/Configurando WebRTC para Asterisk.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="640">
+              <first_editor relative-caret-position="606">
                 <caret line="257" column="112" selection-start-line="257" selection-start-column="112" selection-end-line="257" selection-end-column="112" />
               </first_editor>
               <second_editor />
@@ -50,7 +46,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Banco de Dados/PostgreSQL/Configurando SSL para PostgreSQL.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -62,11 +58,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Ferramentas de Desenvolvimento/Git passo-apasso.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="153">
+              <first_editor relative-caret-position="136">
                 <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="42" />
               </first_editor>
               <second_editor />
@@ -121,7 +117,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="1792" />
     <option name="height" value="1047" />
@@ -239,21 +235,20 @@
       <workItem from="1558009760674" duration="19070000" />
       <workItem from="1558118923406" duration="2324000" />
       <workItem from="1558717499082" duration="6384000" />
-      <workItem from="1559130301968" duration="22133000" />
+      <workItem from="1559130301968" duration="22496000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="165943000" />
+    <option name="totallyTimeSpent" value="166306000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2576" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.17011128" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.17011128" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.18743229" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.18743229" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="3" />
@@ -490,26 +485,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Asterisk/WebRTC/Configurando WebRTC para Asterisk.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="640">
-            <caret line="257" column="112" selection-start-line="257" selection-start-column="112" selection-end-line="257" selection-end-column="112" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ferramentas de Desenvolvimento/Git passo-apasso.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="153">
-            <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="42" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Banco de Dados/PostgreSQL/images/pgadmin_add_server_ssl.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -538,6 +513,26 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="295">
             <caret line="143" column="64" selection-start-line="143" selection-start-column="64" selection-end-line="143" selection-end-column="64" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Asterisk/WebRTC/Configurando WebRTC para Asterisk.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="606">
+            <caret line="257" column="112" selection-start-line="257" selection-start-column="112" selection-end-line="257" selection-end-column="112" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ferramentas de Desenvolvimento/Git passo-apasso.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="136">
+            <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="42" />
           </first_editor>
           <second_editor />
         </state>
