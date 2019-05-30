@@ -39,7 +39,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="1343">
-                <caret line="79" column="34" lean-forward="true" selection-start-line="79" selection-start-column="34" selection-end-line="79" selection-end-column="34" />
+                <caret line="79" column="34" selection-start-line="79" selection-start-column="34" selection-end-line="79" selection-end-column="34" />
               </first_editor>
               <second_editor />
             </state>
@@ -114,6 +114,7 @@
         <option value="$PROJECT_DIR$/Banco de Dados/PostgreSQL/Instalando PostgreSQL no Debian 9.md" />
         <option value="$PROJECT_DIR$/Banco de Dados/PostgreSQL/Configurando TLS para PostgreSQL.md" />
         <option value="$PROJECT_DIR$/Banco de Dados/PostgreSQL/Configurando SSL para PostgreSQL.md" />
+        <option value="$PROJECT_DIR$/LICENSE" />
       </list>
     </option>
   </component>
@@ -236,12 +237,12 @@
       <workItem from="1558118923406" duration="2324000" />
       <workItem from="1558717499082" duration="6384000" />
       <workItem from="1559130301968" duration="22496000" />
-      <workItem from="1559218330153" duration="259000" />
+      <workItem from="1559218330153" duration="636000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="166565000" />
+    <option name="totallyTimeSpent" value="166942000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
@@ -513,7 +514,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="1343">
-            <caret line="79" column="34" lean-forward="true" selection-start-line="79" selection-start-column="34" selection-end-line="79" selection-end-column="34" />
+            <caret line="79" column="34" selection-start-line="79" selection-start-column="34" selection-end-line="79" selection-end-column="34" />
           </first_editor>
           <second_editor />
         </state>
@@ -526,6 +527,13 @@
             <caret line="143" column="64" selection-start-line="143" selection-start-column="64" selection-end-line="143" selection-end-column="64" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="674">
+          <caret line="673" column="49" selection-start-line="673" selection-start-column="49" selection-end-line="673" selection-end-column="49" />
         </state>
       </provider>
     </entry>
