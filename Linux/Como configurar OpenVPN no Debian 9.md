@@ -330,6 +330,46 @@ explicit-exit-notify 1
 log-append /var/log/openvpn.log
 ```
 
+#### Definir um endereço IP estático para um cliente
+
+A configuração do cliente não fornece nenhuma opção para fazer isso, definir um endereço IP estático no próprio adaptador também está sempre sendo sobrescrito quando o cliente estabelece uma conexão com o servidor OpenVPN.
+
+Solução: defina um script específico do cliente no servidor.
+
+Defina um diretório no qual os scripts do cliente devem ser armazenados, por exemplo, ``/etc/openvpn/staticclients`` e crie o diretório
+
+```bash
+mkdir /etc/openvpn/staticclients
+```
+
+Adicione este diretório como opção ao seu arquivo de configuração openvpn no servidor:
+
+```bash
+client-config-dir /etc/openvpn/staticclients
+```
+
+Para cada cliente, você precisa criar um arquivo. O nome do arquivo deve corresponder ao atributo “nome comum” especificado no certificado X509 do cliente. Esse comando obtém o CN do certificado de computadores:
+
+```bash
+openssl x509 -in /etc/openvpn/client/keys/client1.crt -noout -subject | sed -e 's/.*CN=\(.*\)\/.*/\1/'
+```
+
+```bash
+subject=CN = client1
+```
+
+Este exemplo envia o endereço IP 10.1.134.1/255.255.255.192 para o cliente com o nome comum client1 e também envia uma rota adicional para a sub-rede 10.1.135.0.
+
+```bash
+cat /etc/openvpn/staticclients/client1
+```
+
+```bash
+ifconfig-push 10.1.134.1 255.255.255.192
+push "route 10.1.135.0 255.255.255.0 10.1.134.62"
+# push "dhcp-option WINS addr"
+# push "dhcp-option DNS addr"
+```
 
 ## 6. Ajustando a Configuração de Rede do Servidor
 
