@@ -612,4 +612,86 @@ Agora, você pode se conectar à VPN apenas apontando o comando ``openvpn`` para
 openvpn --config client1.ovpn
 ```
 
+
+## 11. Revogando Certificados de Cliente
+
+Ocasionalmente, você pode precisar revogar um certificado de cliente para evitar acesso futuro ao servidor OpenVPN.
+
+Para fazer isso, navegue até o diretório EasyRSA:
+
+```bash
+cd /etc/openvpn/EasyRSA-v3.0.6
+```
+
+Em seguida, execute o script ``easyrsa`` com a opção ``revoke``, seguida pelo nome do cliente que você deseja revogar:
+
+```bash
+./easyrsa revoke client2
+```
+
+Isso pedirá que você confirme a revogação digitando ``yes``:
+
+```bash
+Please confirm you wish to revoke the certificate with the following subject:
+
+subject=
+    commonName                = client1
+
+
+Type the word 'yes' to continue, or any other input to abort.
+  Continue with revocation: yes
+```
+
+Após confirmar a ação, o CA revogará totalmente o certificado do cliente. No entanto, seu servidor OpenVPN atualmente não tem como verificar se os certificados de algum cliente foram revogados e o cliente ainda terá acesso à VPN. Para corrigir isso, crie uma lista de revogação de certificado (CRL) em sua máquina CA:
+
+```bash
+./easyrsa gen-crl
+```
+
+Isso irá gerar um arquivo chamado ``crl.pem``:
+
+```bash
+An updated CRL has been created.
+CRL file: /etc/openvpn/EasyRSA-v3.0.6/pki/crl.pem
+```
+
+Copie este arquivo em seu diretório ``/etc/openvpn/``:
+
+```bash
+cp /etc/openvpn/EasyRSA-v3.0.6/pki/crl.pem /etc/openvpn
+```
+
+Em seguida, abra o arquivo de configuração do servidor OpenVPN:
+
+```bash
+vi /etc/openvpn/server.conf
+```
+
+No final do arquivo, adicione a opção ``crl-verify``, que instruirá o servidor OpenVPN a verificar a lista de revogação de certificado que criamos sempre que uma tentativa de conexão é feita:
+
+```bash
+crl-verify crl.pem
+```
+
+Finalmente, reinicie o OpenVPN para implementar a revogação do certificado:
+
+```bash
+systemctl restart openvpn@server
+```
+
+O cliente não deve conseguir conectar-se com êxito ao servidor usando a credencial antiga.
+
+Para revogar clientes adicionais, siga este processo:
+
+1. Revogar o certificado com o comando ``./easyrsa revoke nome_do_cliente``
+
+1. Gere uma nova CRL
+
+1. Transfira o novo arquivo ``crl.pem`` para o seu servidor OpenVPN e copie-o para o diretório ``/etc/openvpn`` para sobrescrever a lista antiga.
+
+1. Reinicie o serviço OpenVPN.
+
+Você pode usar esse processo para revogar todos os certificados que você emitiu anteriormente para o seu servidor.
+
+
 Fonte: [Digital Ocean](https://www.digitalocean.com/community/tutorials/how-to-set-up-an-openvpn-server-on-debian-9)
