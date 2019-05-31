@@ -358,7 +358,7 @@ openssl x509 -in /etc/openvpn/client/keys/client1.crt -noout -subject | sed -e '
 subject=CN = client1
 ```
 
-Este exemplo envia o endereço IP 10.1.134.1/255.255.255.192 para o cliente com o nome comum client1 e também envia uma rota adicional para a sub-rede 10.1.135.0.
+Este exemplo envia o endereço IP ``10.1.134.1/255.255.255.192`` para o cliente com o nome comum ``client1`` e também envia uma rota adicional para a sub-rede ``10.1.135.0``.
 
 ```bash
 cat /etc/openvpn/staticclients/client1

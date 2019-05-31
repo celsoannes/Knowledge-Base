@@ -28,7 +28,7 @@
         <entry file="file://$PROJECT_DIR$/Ferramentas de Desenvolvimento/Git passo-apasso.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="459">
+              <first_editor relative-caret-position="357">
                 <caret line="26" selection-start-line="26" selection-end-line="26" />
               </first_editor>
               <second_editor />
@@ -40,8 +40,8 @@
         <entry file="file://$PROJECT_DIR$/Linux/Como configurar OpenVPN no Debian 9.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="572">
-                <caret line="367" column="27" selection-start-line="367" selection-start-column="27" selection-end-line="367" selection-end-column="27" />
+              <first_editor relative-caret-position="181">
+                <caret line="360" column="172" selection-start-line="360" selection-start-column="172" selection-end-line="360" selection-end-column="172" />
               </first_editor>
               <second_editor />
             </state>
@@ -98,8 +98,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="width" value="1793" />
+    <option name="x" value="1273" />
+    <option name="width" value="1294" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -217,12 +217,12 @@
       <workItem from="1558717499082" duration="6384000" />
       <workItem from="1559130301968" duration="22496000" />
       <workItem from="1559218330153" duration="25764000" />
-      <workItem from="1559302609994" duration="6518000" />
+      <workItem from="1559302609994" duration="6771000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="198588000" />
+    <option name="totallyTimeSpent" value="198841000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1793" height="1047" extended-state="0" />
@@ -521,7 +521,7 @@
     <entry file="file://$PROJECT_DIR$/Ferramentas de Desenvolvimento/Git passo-apasso.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="459">
+          <first_editor relative-caret-position="357">
             <caret line="26" selection-start-line="26" selection-end-line="26" />
           </first_editor>
           <second_editor />
@@ -531,8 +531,8 @@
     <entry file="file://$PROJECT_DIR$/Linux/Como configurar OpenVPN no Debian 9.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="572">
-            <caret line="367" column="27" selection-start-line="367" selection-start-column="27" selection-end-line="367" selection-end-column="27" />
+          <first_editor relative-caret-position="181">
+            <caret line="360" column="172" selection-start-line="360" selection-start-column="172" selection-end-line="360" selection-end-column="172" />
           </first_editor>
           <second_editor />
         </state>
