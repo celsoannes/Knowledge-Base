@@ -158,3 +158,5 @@ Preencha o SSL do cliente da seguinte forma:
 
 
 Fonte: [PostgreSQL](https://www.postgresql.org/docs/9.6/ssl-tcp.html)
+
+Verificar: [HowToForge](https://www.howtoforge.com/postgresql-ssl-certificates), [iMasters](https://imasters.com.br/data/estabelecendo-conexao-ssl-segura-com-o-servidor-banco-de-dados-postgresql) 

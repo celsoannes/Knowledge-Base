@@ -197,7 +197,22 @@ O OpenVPN usa certificados para criptografar o tráfego.
     ```bash
     ./build-ca
     ```
-
+    
+    > _**NOTA:**_ Caso ja a seguinte mensagem:
+    >
+    >```bash
+    >grep: /etc/openvpn/easy-rsa/openssl.cnf: Arquivo ou diretório não encontrado
+    >pkitool: KEY_CONFIG (set by the ./vars script) is pointing to the wrong
+    >version of openssl.cnf: /etc/openvpn/easy-rsa/openssl.cnf
+    >The correct version should have a comment that says: easy-rsa version 2.x
+    >```
+    >Execute o seguinte comando:
+    >
+    >```bash
+    >cp /etc/openvpn/easy-rsa/openssl-1.0.0.cnf /etc/openvpn/easy-rsa/openssl.cnf
+    >```
+    >Execute novamente: `./build-ca` 
+    
     Pressione ``ENTER`` para passar por cada solicitação, uma vez que você acabou de definir seus valores no arquivo ``vars``. 
     
     Agora o Certificado de Autoridade (CA) esta configurado.

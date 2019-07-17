@@ -161,7 +161,7 @@ Data Base Updated
 Certificate created at: /etc/openvpn/EasyRSA-v3.0.6/pki/issued/server.crt
 ```
 
-Copie os arquivos ``server.crt`` and ``ca.crt`` para a pasta ``/etc/openvpn/```:
+Copie os arquivos ``server.crt`` and ``ca.crt`` para a pasta ``/etc/openvpn/``:
 
 ```bash
 cp /etc/openvpn/EasyRSA-v3.0.6/pki/issued/server.crt /etc/openvpn
