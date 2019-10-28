@@ -12,6 +12,12 @@ Rode o comando abaixo caso queira exportar todos os bancos:
 
     pg_dumpall -o > db_all.out
 
+## Exportar uma única tabela
+Use `--table` para informar ao `pg_dump` qual tabela deve ser exportada:
+
+    pg_dump -d <database_name> -t <table_name> > /tmp/file.pgdump
+
+
 ## Importar um banco de dados
 Rode o comando abaixo para importar um banco de dados:
 

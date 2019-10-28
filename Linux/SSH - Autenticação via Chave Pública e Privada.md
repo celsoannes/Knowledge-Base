@@ -40,6 +40,12 @@
     +----[SHA256]-----+
     ```
 
+1. Altere o nome do arquivo `id_rsa.pub` para `authorized_keys` 
+
+    ```bash
+    mv id_rsa.pub authorized_keys
+    ```
+
 1. Transferir a chave secreta criada no servidor para um cliente, então é possível fazer o login com a autenticação de par de chaves.
 
     Crie a pasta `.ssh` na pasta `home` do usuario caso ela não exista
