@@ -26,6 +26,10 @@ Para alterar as configurações, você também usa o comando ```ifconfig```, des
 
     ifconfig eth0 192.168.0.1 netmask 255.255.255.0
 
+Em sistemas mais novos pode-se usar o seguinte método:
+
+    ip addr add 192.168.0.1/24 dev ens32
+
 Você poderia, certamente, substituir em qualquer valor que você desejar. Se você rodar ```ifconfig``` novamente você verá que a sua interface terá pego as configurações que você definiu para ela.
 
     eth0      Link encap:Ethernet  HWaddr 00:0c:29:ed:8d:51
@@ -49,6 +53,12 @@ Você poderia, certamente, substituir em qualquer valor que você desejar. Se vo
 Se você também precisar alterar o Gateway Padrão usado pela interface de rede, você usar o comando ```route```. O comando seguinte, por exemplo, define o gateway padrão para a interface ```eth0``` para ```192.168.0.253```:
 
     route add default gw 192.168.0.253 eth0
+    
+Em sistemas mais novos pode-se usar o seguinte método:
+
+    ip route add 192.168.0.0/24 dev ens32
+    ip route add default via 192.168.0.1
+
 
 Para ver as suas novas configurações, você precisará mostrar a tabela de rotas. Digite o seguinte comando no terminal e pressione Enter:
 
