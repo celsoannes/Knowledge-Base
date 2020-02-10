@@ -42,6 +42,9 @@ No prompt de comando adicione o endereço para o repositório remoto onde o seu 
     # Verifies the new remote URL
 
     git remote add origin https://github.com/celsoannes/bankbkp.git
+    
+    Para bitbucket fica assim:
+    git remote add origin git@bitbucket.org:celsoannes/bankbkp.git
 
 ## 7. Enviando as alterações 
 

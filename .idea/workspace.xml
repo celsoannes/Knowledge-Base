@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8cbc0c88-cd7b-40b4-b59f-1df3078272e2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Linux/Como alterar o seu endereço de IP através da linha de comando.md" beforeDir="false" afterPath="$PROJECT_DIR$/Linux/Como alterar o seu endereço de IP através da linha de comando.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ferramentas de Desenvolvimento/Git passo-apasso.md" beforeDir="false" afterPath="$PROJECT_DIR$/Ferramentas de Desenvolvimento/Git passo-apasso.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,23 +13,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Ferramentas de Desenvolvimento/Git passo-apasso.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="233">
-                <caret line="29" column="62" selection-start-line="29" selection-start-column="62" selection-end-line="29" selection-end-column="62" />
+              <first_editor relative-caret-position="522">
+                <caret line="46" column="62" selection-start-line="46" selection-start-column="62" selection-end-line="46" selection-end-column="62" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Linux/Como alterar o seu endereço de IP através da linha de comando.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="595">
+              <first_editor relative-caret-position="1003">
                 <caret line="59" column="40" selection-start-line="59" selection-start-column="40" selection-end-line="59" selection-end-column="40" />
               </first_editor>
               <second_editor />
@@ -63,7 +63,6 @@
         <option value="$PROJECT_DIR$/Linux/Entendendo os comando shutdown, halt, poweroff e reboot.md" />
         <option value="$PROJECT_DIR$/Ruby Mine/Configurando Bitbucket para Ruby Mine no Windows.md" />
         <option value="$PROJECT_DIR$/Linux/Restauração de Backup.md" />
-        <option value="$PROJECT_DIR$/Ferramentas de Desenvolvimento/Git passo-apasso.md" />
         <option value="$PROJECT_DIR$/Linux/Como instalar o ELK Stack no Debian 9.md" />
         <option value="$PROJECT_DIR$/Linux/Como instalar o Puppet.md" />
         <option value="$PROJECT_DIR$/Linux/Configurndo VIM.md" />
@@ -90,6 +89,7 @@
         <option value="$PROJECT_DIR$/Asterisk/Como interligar dois PABX com DUNDi.md" />
         <option value="$PROJECT_DIR$/Banco de Dados/PostgreSQL/Como exportar e importar bancos no PostgreSQL.md" />
         <option value="$PROJECT_DIR$/Linux/Como alterar o seu endereço de IP através da linha de comando.md" />
+        <option value="$PROJECT_DIR$/Ferramentas de Desenvolvimento/Git passo-apasso.md" />
       </list>
     </option>
   </component>
@@ -248,21 +248,22 @@
       <workItem from="1567087583887" duration="1576000" />
       <workItem from="1572286187402" duration="772000" />
       <workItem from="1578588607842" duration="12000" />
-      <workItem from="1579614521853" duration="1017000" />
+      <workItem from="1579614521853" duration="1651000" />
+      <workItem from="1581344538544" duration="90000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="244992000" />
+    <option name="totallyTimeSpent" value="245716000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.1108903" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.11168522" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.1871714" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.1871714" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="3" />
@@ -612,8 +613,8 @@
     <entry file="file://$PROJECT_DIR$/Ferramentas de Desenvolvimento/Git passo-apasso.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="233">
-            <caret line="29" column="62" selection-start-line="29" selection-start-column="62" selection-end-line="29" selection-end-column="62" />
+          <first_editor relative-caret-position="522">
+            <caret line="46" column="62" selection-start-line="46" selection-start-column="62" selection-end-line="46" selection-end-column="62" />
           </first_editor>
           <second_editor />
         </state>
@@ -622,7 +623,7 @@
     <entry file="file://$PROJECT_DIR$/Linux/Como alterar o seu endereço de IP através da linha de comando.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="595">
+          <first_editor relative-caret-position="1003">
             <caret line="59" column="40" selection-start-line="59" selection-start-column="40" selection-end-line="59" selection-end-column="40" />
           </first_editor>
           <second_editor />
