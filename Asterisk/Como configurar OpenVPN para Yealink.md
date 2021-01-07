@@ -291,6 +291,7 @@ ifconfig-pool-persist ipp.txt
 push "redirect-gateway def1 bypass-dhcp"
 push "dhcp-option DNS 208.67.222.222"
 push "dhcp-option DNS 208.67.220.220"
+push "ip-win32 dynamic 0 3600" #To Control DHCP Lease In OpenVPN
 keepalive 10 120
 comp-lzo
 persist-key
