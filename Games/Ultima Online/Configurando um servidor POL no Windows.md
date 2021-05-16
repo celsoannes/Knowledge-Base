@@ -51,7 +51,7 @@ Depois de baixar o ``POL Configurator``, clique duas vezes no arquivo `pol_confi
 
 Lembre-se de que a caixa de diálogo que se abre é uma caixa de seleção de **diretório**. Destaque o diretório e clique no botão Selecionar pasta. Será apresentado uma caixa de diálogo informando que esta faltando o arquivo `ecompile.cfg` em sua instalação do **POL**.
 
-![Missing Files Notification.png](./images/Missing Files Notification.png)
+![Missing Files Notification.png](./images/Missing%20Files%20Notification.png)
 
 Isto é normal porque não fornecemos um arquivo `ecompile.cfg` padrão com os arquivos `Core` ou `Distro`. Isto é porque alguma das configurações neste arquivo dependem do local onde você instalou o **POL**. Clique no botão `Yes` para permitir que o `POL Configurator` forneça o arquivo ausente. Uma mensagem aparecerá informando que o arquivo ausente foi adicionado à sua instalação. Clique no botão OK.
 
