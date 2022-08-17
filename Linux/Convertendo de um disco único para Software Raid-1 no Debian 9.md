@@ -1,4 +1,4 @@
-# Convertendo de um disco único para Raid-1 no Debian
+# Convertendo de um disco único para Software Raid-1 no Debian 9 
 
 ### Por favor, esteja avisado converter de um disco único para RAID-1 no Debian é uma operação perigosa, e você pode perder seus dados e destruir seu Sistema Operacional no processo.
 
@@ -10,7 +10,9 @@ Dispositivo Inicializar    Início       Fim   Setores Tamanho Id Tipo
 /dev/sda2               152147968 167770111  15622144    7,5G 82 Linux swap / Solaris
 ```
 
-### 1. Instalando os pacotes necessários 
+## 1. Criando uma RAID
+
+### 1.1. Instalando os pacotes necessários 
 Instale o `mdadm` módulo gerenciador de RAID e o `rsync` sincronizador de diretórios locais e remotos.
 
 ```shell
@@ -18,8 +20,7 @@ apt-get update
 apt-get install mdadm rsync -y
 ```
 
-
-### 2. Apague os dados definitivamente do disco `/dev/sdb`
+### 1.2. Apague os dados definitivamente do disco `/dev/sdb`
 
 Você pode precisar limpar o disco rígido para eliminar erros de partição, instalações mal sucedidas ou por privacidade. O comando irá preencher os setores do disco com valores zeros (pode demorar um pouco, já que é feito byte a byte de valor 0):
 
@@ -34,7 +35,7 @@ dd if=/dev/zero of=/dev/sdb bs=1024 count=10
 ```
 
 
-### 3. Copie as partições para o disco `/dev/sdb`
+### 1.3. Copie as partições para o disco `/dev/sdb`
 
 Com o disco vazio, ele não terá os esquemas de partições necessárias para a configuração da RAID. Para preparar o disco, seus esquemas de partições precisam ser iguais as do outro disco. Os equemas de partições podem ser copiadas a partir do disco em produção para o novo disco `/dev/sdb`.
 
@@ -45,7 +46,7 @@ sfdisk -d /dev/sda | sfdisk /dev/sdb
 Isto copiará o esquema de partições do disco `/dev/sda` para o disco `/dev/sdb`.
 
 
-### 4. Criando a RAID-1
+### 1.4. Criando a RAID-1
 
 Assumindo que o seu disco possui uma partição `/dev/sda1`, crie o conjunto para RAID-1.
 
@@ -65,7 +66,7 @@ mdadm --create /dev/md0 --level=1 --raid-devices=2 missing /dev/sdb1
 >```
 
 
-### 5.Configurando `mdadm`
+### 1.5. Configurando `mdadm`
 
 Edite agora `/etc/mdadm/mdadm.conf` e mude a linha `DEVICE`:
 
@@ -78,7 +79,7 @@ dpkg-reconfigure mdadm
 ![Configurando mdadm](./images/configurando_mdadm_003.png)
 
 
-### 6. Atualizando `grub`
+### 1.6. Atualizando `grub`
 
 Agora atualize o `grub` selecionando `/dev/sda` e `/dev/sdb`, exceto `/dev/md0`:
 
@@ -106,14 +107,14 @@ Imagem initrd encontrada: /boot/initrd.img-4.9.0-13-amd64
 concluído
 ```
 
-### 7. Criando o sistema de arquivos
+### 1.7. Criando o sistema de arquivos
 Agora crie exatamente o mesmo sistema de arquivos assim como em seu disco `/dev/sda` em seu dispositivo RAID:
 
 ```shell
 mkfs.ext4 /dev/md0
 ```
 
-### 8. Montando a RAID
+### 1.8. Montando a RAID
 Monte sua `/dev/md0` dentro da pasta `/raid1`:
 
 ```shell
@@ -121,7 +122,7 @@ mkdir /raid1
 mount -t auto /dev/md0 /raid1
 ```
 
-### 9. Copiando os dados do disco antigo para a RAID
+### 1.9. Copiando os dados do disco antigo para a RAID
 Agora copie seus dados existentes para o ponto de montagem da RAID usando `rsync`:
 
 ```shell
@@ -129,7 +130,7 @@ rsync -avxHAXS --delete --progress / /raid1
 ```
 
 
-### 10. Editando `fstab`
+### 1.10. Editando `fstab`
 Edite o arquivo `fstab` localizado em `/raid1/etc/fstab` e mude o ponto de montagem `root` `/`:
 
 **De:**
@@ -145,7 +146,7 @@ UUID=272c62bc-fd3a-4049-9c70-6f4ef2939817 /               ext4    errors=remount
 ```
 
 
-### 11. Adicionando uma segunda partição de `swap`
+### 1.11. Adicionando uma segunda partição de `swap`
 A partição foi criada com o sfdisk, mas ela ainda precisa ser formatada para swap.
 
 ```shell
@@ -176,7 +177,7 @@ UUID=0636eef4-682e-44d9-be76-e9a2f01e6f5d none            swap    sw            
 ```
 
 
-### 12. Editando `grub.cfg`
+### 1.12. Editando `grub.cfg`
 Agora edite o arquivo `/boot/grub/grub.cfg`, mude o dispositivo `root` `UUID`.
 
 **De:**
@@ -193,7 +194,7 @@ Agora edite o arquivo `/boot/grub/grub.cfg`, mude o dispositivo `root` `UUID`.
 Após finalizar todas as modificações reinicie o servidor.
 
 
-### 13. Adicionando disco `/dev/sda1` à RAID-1
+### 1.13. Adicionando disco `/dev/sda1` à RAID-1
 
 Após o reboot, adicione o primeiro disco `/dev/sda1` a RAID-1:
 
@@ -207,7 +208,7 @@ Agora espere até a RAID-1 ser completamente sincronizada digitando:
 watch -n1 cat /proc/mdstat
 ```
 
-### 14. Atualizando `fstab`
+### 1.14. Atualizando `fstab`
 
 Agora nós precisamos modificar o `/dev/md0` para `UUID` dentro do `/etc/fstab`. Por favor, digite o comando a seguir e copie o número `UUID`.
 
@@ -226,7 +227,7 @@ UUID=0636eef4-682e-44d9-be76-e9a2f01e6f5d none            swap    sw            
 ````
 
 
-### 15. Reinstalando `grub`
+### 1.15. Reinstalando `grub`
 
 Agora, por último, reinstale e atualize o `grub` e reinicie o servidor:
 
@@ -238,7 +239,7 @@ reboot
 ```
 
 
-### 16. Revisando
+### 1.16. Revisando
 
 Execute o comando `lsblk` e veja como ficou o esquema de partições, ela deve estar parecida como a mostrada abaixo:
 
@@ -257,4 +258,90 @@ sr0      11:0    1 1024M  0 rom
 ```
 
 
-Fonte: [Clouvider](https://www.clouvider.com/knowledge_base/converting-from-single-disk-to-raid-1-on-ubuntu-linux/), [Parabola](https://wiki.parabola.nu/Convert_a_single_drive_system_to_RAID), [Experiencing Technology](https://blog.tinned-software.net/replace-hard-disk-from-software-raid/)
+# 2. Substituindo disco defeituoso da RAID
+
+
+# 2.1 `Disco 0` (`sda`) parou de funcionar
+
+Quando usado `grub` e se os discos não são `hot swap` o servidor precisará ser reiniciado a partir do disco que possui o `grub` e os dados da RAID.
+
+
+Caso o `Disco 0` (`sda`) apresente um problema onde não seja mais visto pelo hardware, quem assumirá seu lugar será o `Disco 1` (`sdb`) através da RAID-1 (`md0`), porem deve ser observado neste momento que o sistema operacional passará a interpretará o `Disco 1` como `sda`, e o disco `sdb` desaparecerá da listagem:
+
+```shell
+lsblk
+NAME    MAJ:MIN RM  SIZE RO TYPE  MOUNTPOINT
+sda       8:0    0   80G  0 disk
+├─sda1    8:1    0 72,6G  0 part
+│ └─md0   9:0    0 72,5G  0 raid1 /
+└─sda2    8:2    0  7,5G  0 part  [SWAP]
+sr0      11:0    1  292M  0 rom
+```
+
+## 2.1.1 Substituindo `Disco 0` defeituoso
+
+Subistitua o `Disco 0` equivalente ao `/dev/sda`.
+
+## 2.1.2 Ajustando a ordem de BOOT
+No caso deste exemplo ao rebootar, a ordem dos discos devem ser alterados na BIOS, onde o `Disco 0` é o primeiro (`sda`) e o `Disco 1` é o segundo (`sdb`):
+![Configurando mdadm](./images/bios_boot_hd_001.png)
+
+Passando o `Disco 1` ser o primeiro, e deixando o `Disco 0` para inicializar depois do `Disco 1`.
+![Configurando mdadm](./images/bios_boot_hd_002.png)
+
+Inicialize através do `Disco 1` através da reordenação de BOOT da Bios, agora você verá que o `sda` não faz mais parte da RAID:
+
+```shell
+lsblk
+NAME    MAJ:MIN RM  SIZE RO TYPE  MOUNTPOINT
+sda       8:0    0   80G  0 disk
+sdb       8:16   0   80G  0 disk
+├─sdb1    8:17   0 72,6G  0 part
+│ └─md0   9:0    0 72,5G  0 raid1 /
+└─sdb2    8:18   0  7,5G  0 part  [SWAP]
+sr0      11:0    1  292M  0 rom
+```
+
+
+## 2.1.3 Particionando o `Disco 0`
+
+Copie a tabela de partição a partir de `/dev/sdb`
+
+```shell
+sfdisk -d /dev/sdb | sed 's/,\s*uuid=[^,]\+//gi' | sfdisk /dev/sda
+```
+
+## 2.1.4 Adicionando `/dev/sda1` a RAID
+
+Adicione o primeiro disco `Disco 0` a RAID:
+
+```shell
+mdadm /dev/md0 -a /dev/sda1
+```
+
+Agora espere até que a RAID-1 esteja completamente sincronizada digitando:
+
+```shell
+watch -n1 cat /proc/mdstat
+```
+
+## 2.1.5 Reinstalando `grub`
+
+Agora, por último, reinstale o `grub` e desligue o servidor:
+
+```shell
+grub-install /dev/sda
+poweroff
+```
+
+# 2.1.6 Retornando a ordem de BOOT 
+
+Após reparar a RAID adicionando o disco que estava faltando a ordem de BOOT dos discos pode ser restaurada:
+
+![Configurando mdadm](./images/bios_boot_hd_003.png)
+![Configurando mdadm](./images/bios_boot_hd_004.png)
+
+
+
+
+Fonte: [Clouvider](https://www.clouvider.com/knowledge_base/converting-from-single-disk-to-raid-1-on-ubuntu-linux/), [Parabola](https://wiki.parabola.nu/Convert_a_single_drive_system_to_RAID), [Experiencing Technology](https://blog.tinned-software.net/replace-hard-disk-from-software-raid/), [Techpository](http://www.techpository.com/linux-fixing-a-lost-drive-in-ubuntu-when-using-software-raid-1/)
