@@ -238,4 +238,23 @@ reboot
 ```
 
 
+### 16. Revisando
+
+Execute o comando `lsblk` e veja como ficou o esquema de partições, ela deve estar parecida como a mostrada abaixo:
+
+```shell
+lsblk
+NAME    MAJ:MIN RM  SIZE RO TYPE  MOUNTPOINT
+sda       8:0    0   80G  0 disk
+├─sda1    8:1    0 72,6G  0 part
+│ └─md0   9:0    0 72,5G  0 raid1 /
+└─sda2    8:2    0  7,5G  0 part  [SWAP]
+sdb       8:16   0   80G  0 disk
+├─sdb1    8:17   0 72,6G  0 part
+│ └─md0   9:0    0 72,5G  0 raid1 /
+└─sdb2    8:18   0  7,5G  0 part  [SWAP]
+sr0      11:0    1 1024M  0 rom
+```
+
+
 Fonte: [Clouvider](https://www.clouvider.com/knowledge_base/converting-from-single-disk-to-raid-1-on-ubuntu-linux/), [Parabola](https://wiki.parabola.nu/Convert_a_single_drive_system_to_RAID), [Experiencing Technology](https://blog.tinned-software.net/replace-hard-disk-from-software-raid/)
