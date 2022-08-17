@@ -261,7 +261,7 @@ sr0      11:0    1 1024M  0 rom
 # 2. Substituindo disco defeituoso da RAID
 
 
-# 2.1 `Disco 0` (`sda`) parou de funcionar
+## 2.1 `Disco 0` (`sda`) parou de funcionar
 
 Quando usado `grub` e se os discos não são `hot swap` o servidor precisará ser reiniciado a partir do disco que possui o `grub` e os dados da RAID.
 
@@ -278,11 +278,11 @@ sda       8:0    0   80G  0 disk
 sr0      11:0    1  292M  0 rom
 ```
 
-## 2.1.1 Substituindo `Disco 0` defeituoso
+### 2.1.1 Substituindo `Disco 0` defeituoso
 
 Subistitua o `Disco 0` equivalente ao `/dev/sda`.
 
-## 2.1.2 Ajustando a ordem de BOOT
+### 2.1.2 Ajustando a ordem de BOOT
 No caso deste exemplo ao rebootar, a ordem dos discos devem ser alterados na BIOS, onde o `Disco 0` é o primeiro (`sda`) e o `Disco 1` é o segundo (`sdb`):
 ![Configurando mdadm](./images/bios_boot_hd_001.png)
 
@@ -303,7 +303,7 @@ sr0      11:0    1  292M  0 rom
 ```
 
 
-## 2.1.3 Particionando o `Disco 0`
+### 2.1.3 Particionando o `Disco 0`
 
 Copie a tabela de partição a partir de `/dev/sdb`
 
@@ -311,7 +311,7 @@ Copie a tabela de partição a partir de `/dev/sdb`
 sfdisk -d /dev/sdb | sed 's/,\s*uuid=[^,]\+//gi' | sfdisk /dev/sda
 ```
 
-## 2.1.4 Adicionando `/dev/sda1` a RAID
+### 2.1.4 Adicionando `/dev/sda1` a RAID
 
 Adicione o primeiro disco `Disco 0` a RAID:
 
@@ -325,7 +325,36 @@ Agora espere até que a RAID-1 esteja completamente sincronizada digitando:
 watch -n1 cat /proc/mdstat
 ```
 
-## 2.1.5 Reinstalando `grub`
+
+### 2.1.5 Atualizando a partição de `swap`
+
+A partição foi criada com o sfdisk, mas ela ainda precisa ser formatada para swap.
+
+```shell
+mkswap /dev/sda2
+```
+
+Você precisa informar ao `fstab` aonde encontrar o novo dispositivo. É melhor usar codigos `UUID` aqui, que não devem mudar, mesmo que sua ordem de partições mude ou um disco seja removido.
+
+Para encontrar a `UUID` use:
+
+```shell
+blkid /dev/sda2
+/dev/sda2: UUID="7d5bdb53-a4b8-4394-9ed3-789a7ce8be09" TYPE="swap" PARTUUID="0a717d31-02"
+```
+
+Então atualize esta `UUID` do arquivo `fstab`. Subistituindo a `UUID` antiga do `/dev/sda2` pela nova:
+
+```shell
+# <file system> <mount point>   <type>  <options>       <dump>  <pass>
+UUID=6344d068-516c-4703-9f59-caafa2f4fbd5        /       ext4    errors=remount-ro       0       1
+UUID=7d5bdb53-a4b8-4394-9ed3-789a7ce8be09 none            swap    sw              0       0
+UUID=0636eef4-682e-44d9-be76-e9a2f01e6f5d none            swap    sw              0       0
+/dev/sr0        /media/cdrom0   udf,iso9660 user,noauto     0       0
+```
+
+
+### 2.1.6 Reinstalando `grub`
 
 Agora, por último, reinstale o `grub` e desligue o servidor:
 
@@ -334,7 +363,7 @@ grub-install /dev/sda
 poweroff
 ```
 
-# 2.1.6 Retornando a ordem de BOOT 
+### 2.1.7 Retornando a ordem de BOOT 
 
 Após reparar a RAID adicionando o disco que estava faltando a ordem de BOOT dos discos pode ser restaurada:
 
