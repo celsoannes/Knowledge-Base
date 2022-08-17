@@ -342,6 +342,4 @@ Após reparar a RAID adicionando o disco que estava faltando a ordem de BOOT dos
 ![Configurando mdadm](./images/bios_boot_hd_004.png)
 
 
-
-
 Fonte: [Clouvider](https://www.clouvider.com/knowledge_base/converting-from-single-disk-to-raid-1-on-ubuntu-linux/), [Parabola](https://wiki.parabola.nu/Convert_a_single_drive_system_to_RAID), [Experiencing Technology](https://blog.tinned-software.net/replace-hard-disk-from-software-raid/), [Techpository](http://www.techpository.com/linux-fixing-a-lost-drive-in-ubuntu-when-using-software-raid-1/)
