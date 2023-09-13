@@ -557,6 +557,4 @@ Isso criará um arquivo chamado `client1.ovpn` no diretório `/etc/openvpn/clien
 ls /etc/openvpn/client/files
 ````
 
-fonte:
-https://www.digitalocean.com/community/tutorials/how-to-set-up-and-configure-a-certificate-authority-ca-on-debian-11#step-2-preparing-a-public-key-infrastructure-directory
-https://www.digitalocean.com/community/tutorials/how-to-set-up-an-openvpn-server-on-debian-11
+Fonte: [Digital Ocean](https://www.digitalocean.com/community/tutorials/how-to-set-up-and-configure-a-certificate-authority-ca-on-debian-11#step-2-preparing-a-public-key-infrastructure-directory), [Digital Ocean](https://www.digitalocean.com/community/tutorials/how-to-set-up-an-openvpn-server-on-debian-11)
