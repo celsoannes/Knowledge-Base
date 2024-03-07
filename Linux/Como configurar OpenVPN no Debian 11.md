@@ -271,10 +271,11 @@ Para:
 tls-auth /etc/openvpn/keys/ta.key 0 # This file is secret
 ````
 
-Em seguida, encontre a seção de cifras criptográficas procurando pelas linhas de `cipher` comentadas. A cifra `AES-256-CBC` oferece um bom nível de criptografia e é bem suportada. Novamente, essa linha já deve estar descomentada, mas se não estiver, basta remover o ";" que a precede:
+A seguir, altere o valor da cifra criptográfica procurando as linhas de cifra. O valor padrão está definido como `AES-256-CBC`. Comente o valor padrão e adicione outra linha com a criptografia `AES-256-GCM`, que oferece um melhor nível de criptografia e desempenho, como mostrado abaixo.
 
 ````shell
-cipher AES-256-CBC
+;cipher AES-256-CBC
+cipher AES-256-GCM
 ````
 
 Abaixo disso, adicione uma diretiva "auth" para selecionar o algoritmo de resumo de mensagem HMAC. Para isso, SHA256 é uma boa escolha:
