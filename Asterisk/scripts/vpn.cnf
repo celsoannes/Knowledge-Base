@@ -2,7 +2,7 @@ client
 setenv SERVER_Poll_TIMEOUT 4
 nobind
 proto udp
-remote SEU_IP 1194
+remote HOST PORTA
 dev tun
 dev-type tun
 persist-tun
