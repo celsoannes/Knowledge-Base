@@ -4,8 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8cbc0c88-cd7b-40b4-b59f-1df3078272e2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Linux/Como configurar interface VLAN no Debian 10 e 11.md" afterDir="false" />
+    <list default="true" id="8cbc0c88-cd7b-40b4-b59f-1df3078272e2" name="Default Changelist" comment="Atualizações">
+      <change afterPath="$PROJECT_DIR$/Asterisk/Como_Configurar_OpenVPN_para_Yealink_no_Debian_11.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Linux/Como instalar o Apache Guacamole no Debian 12.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Linux/Como instalar o Tomcat 9 no Debian 12.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Linux/Como_Instalar_o_Plex_Media_Server_no_Debian_12.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Linux/Como_Instalar_o_qBittorrent_no_Debian 12.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Linux/Como_instalar_o_Cockpit_no_Debian_12.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Linux/Como_recuperar_arquivos_de_uma_VM_no_Proxmox.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Linux/Configurando_LDAP_no_Debian_11.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Linux/Configurar a autenticação OpenLDAP do Apache Guacamole.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Linux/Contigurando_Teleport_Community_Edition.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Linux/Instalando_Certbot_no_Debian_12.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Linux/images/CNAME.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Programação/Instalando_o_Playwright_em_um_Ambiente_Virtual_Python.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -98,15 +110,18 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;last_opened_file_path&quot;: &quot;G:/Meu Drive/Knowledge Base&quot;
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Users/Celso Annes/Google Drive/Meu Drive/Knowledge-Base/Knowledge-Base/Linux/images&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Users\Celso Annes\Google Drive\Meu Drive\Knowledge-Base\Knowledge-Base\Linux\images" />
+      <recent name="D:\Users\Celso Annes\Google Drive\Knowledge Base\Linux\images" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Users\Celso Annes\Google Drive\Knowledge Base\Linux" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Users\Celso Annes\Google Drive\Knowledge Base\Linux\images" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="1" Folder0="C:\Program Files\JetBrains\RubyMine 2019.1.2\IntelliJ.Portuguese.Brazil.Dictionary-master" CustomDictionaries="1" CustomDictionary0="C:\Program Files\JetBrains\RubyMine 2019.1.2\IntelliJ.Portuguese.Brazil.Dictionary-master\portuguese-brazil.dic" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -189,6 +204,15 @@
       <workItem from="1621364190184" duration="876000" />
       <workItem from="1621365106206" duration="7000" />
     </task>
+    <task id="LOCAL-00001" summary="Atualizações">
+      <option name="closed" value="true" />
+      <created>1711115401632</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1711115401632</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -231,6 +255,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Atualizações" />
+    <option name="LAST_COMMIT_MESSAGE" value="Atualizações" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Asterisk/Configuração do SNMP para o Asterisk 11+.md" />
