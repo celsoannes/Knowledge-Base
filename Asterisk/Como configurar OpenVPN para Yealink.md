@@ -276,7 +276,7 @@ O mais importanto da saída acima, você deve encontrar ``Active: active (exited
 
 Ao final, o seu arquivo ``/etc/openvpn/server.conf`` deve se ser parecido com as linhas abaixo:
 ```bash
-local 200.240.249.44
+local 192.168.1.10
 port 1194
 proto udp
 dev tun
