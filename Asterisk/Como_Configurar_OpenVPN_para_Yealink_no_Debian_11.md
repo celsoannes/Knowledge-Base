@@ -353,5 +353,5 @@ chmod +x /etc/openvpn/client/openvpn_yealink.sh
 Agora execute o script informe o ramal e veja a mágica acontecer:
 
 ````shell
-env ./openvpn_yealink.sh 2001
+env DEBUG=1 ./openvpn_yealink.sh 2001
 ````
